@@ -1,0 +1,984 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01048FC3BD93A2DD3D4D8FD7CF7689BA /* Pods-IIBLL_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF9DA4651FF34003A327EDCAC25EF4 /* Pods-IIBLL_Example-dummy.m */; };
+		028840561BDC3BF473DC79E160411452 /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E1E2B433F39CB9F788649385E55C9E /* BHModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04AD0FCA303F438C717EA2E6582304AF /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FB2A7228F2E4B4D744E21918FFCF58 /* BHContext.m */; };
+		062BA1958F8692E9B01B3F91EB5718CD /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEC09706DC81B4B4C57E2C48EB1F4E /* BHRouter.m */; };
+		07F5FC450D00DD559BAD0C207DC20675 /* Pods-IIBLL_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D480DD0A5EA8893B8A8AC122BD27BD3 /* Pods-IIBLL_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		092BD3724A8527A9E042F0171C5FAC52 /* BHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 385EBB426DD8EC0E519859B2760BD465 /* BHDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC228198CAFA82952EC1CF9F568CD42 /* BHModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 084AF9ABF366BD73A6EBCAE20E300715 /* BHModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238E26818956463225B559C9A17222BD /* BHTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 963891EFEDB6351F991B4D9B3E68E493 /* BHTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		272DF4692827B34E561B2681F649CEEB /* BHCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E0AA2DA4AD8D17A33F83A60E9E8285 /* BHCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2792F0DC5A528996F94A292226EC072A /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3919BB2BE83049567B009C21EBDFC031 /* BHConfig.m */; };
+		28496F2BBA0686E79A305EE109F77C9B /* WorkBenchIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A096315527EE115854F61506C3B8C5C /* WorkBenchIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F71379F0C27BCE487E6D6C109A9FE3D /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C807935CEA55FC49264F1D374A3E0919 /* BHAppDelegate.m */; };
+		31F5076CC57EA06181B3870E89B26215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		459E79C5F961F05AE400F17DB74BB2D0 /* BHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C15D94EB1E1859576C0C6B0C7864DD /* BHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7B193D1AF14D2E52755B6C17F49E78 /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B19245EF156877F21E9A7CA67F1B7A88 /* BHModuleManager.m */; };
+		5C43925ED33E22DCC533E0CBE2B3DD0D /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2050FC072E66600EE70F4948B849EF14 /* BHAnnotation.m */; };
+		5DECF5BA2AFD041A2002E18632FBEFD3 /* BHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FCE716645CF25C73D179AB5E9BABF1 /* BHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618494433C65AFF8CA70DF2D1100C250 /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D970E3B1811A033F9172AE1F9FAF976D /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64CCB4F70000AEC87D8954506541017F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6B9220287EFE5F17BF9C76D0A5928C5E /* BHContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 77653D1A3711B32E637B805EB3AFDB65 /* BHContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764D4A0D507A3D90179FC9F9E0CD7E8A /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2EA4AFA35C8D3196BECC5E4DF72C33 /* BeeHive.m */; };
+		7F2E588D41AE8FE9BA19C4CB83C517E3 /* WebEXIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEBCD12B63F8892DCE652AF2B42283A /* WebEXIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8385A1FAC4CCBC0E1C75B7BE0A15121C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		83D382F1FBCAACB3F4876565485335C9 /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 25C531746DE7F933A9D1351C60281F3F /* BeeHive.bundle */; };
+		99D53C7B476B757F9735C7507B684E52 /* BHWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FD0EF3AD4D3F0EEB4DA31E3624B6E0 /* BHWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99DCE1ABD0320300614CC25858C3870B /* Pods-IIBLL_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0892113440F0E67657847D9CA7C2A05 /* Pods-IIBLL_Tests-dummy.m */; };
+		9D2B6E783FF7E8499935F29968FBC8A8 /* BHAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = E31146A5C76CBD8AD755FD1629AE1DCD /* BHAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89C61F97ACF5A7CE214EEC935BAA866 /* IIExchangeIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F92E878EF1F7F0E3A25431D40D1C745 /* IIExchangeIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A947C16C62F6C82135A41B47AA039DFD /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C540064A6FB5EB9499BA18951B227 /* BHTimeProfiler.m */; };
+		B2B3BC1F0CE6D3118B4A57FAD7CC6FFF /* LoginIBLLOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461EAFD80D413347C851AF82F981F01 /* LoginIBLLOC.m */; };
+		BA1B88C7F04B335F5BB60CA76A57D84C /* IIBLL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7DC8C852540A466CF4F4DBEDF5ECA9 /* IIBLL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD217A9B38BDBF6BB9993270C26C2A8F /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F82FBBA1E3E5ED4D1D6909D6C4B408D /* BHServiceManager.m */; };
+		BEA19275E64B313269779C00AB0E07A3 /* DiscoverIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 87837197C254A0C19CFF1513FE0D6039 /* DiscoverIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C04863200B2D4AAD866FB7B41CF7A0 /* BeeHive.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F453888F8EAB8F9FCB301EFD72430E /* BeeHive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD15958275A19E901184E9C849244B5D /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5AEB80403334FE78CFF62B4B1C4BAF /* BHWatchDog.m */; };
+		E0315DF39B842835A85B5DB5EAA0AF8D /* IIBLL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1113C05290B1EDA2C165BED90B1D9C55 /* IIBLL-dummy.m */; };
+		E742C63805C7D17981435DC2F1678296 /* Pods-IIBLL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03621A5B4510F85751CE11E4B662135D /* Pods-IIBLL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB7AEF19567FD70731C3A80861BB4B2 /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9FFD614A680A775C1A11A60855A7F3 /* BHServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5625DE37A45DE1A164D0565A24A1CBA /* BHAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC87516793B45C6CCC245F17AAA0A5B /* BHAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E4C996EDBF8A018CD63CE2660578E2 /* CloudMineIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB3C17891A5F1DF130976111BEBD481 /* CloudMineIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84F60588C033FD3B183827AE0AEC8EC /* LoginIBLLOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B75F46FD6CAB073137D5EFC91A300F /* LoginIBLLOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9EE4215C6AA18FE60F39B86A5797DF4 /* AgoraAudioIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DC4618D705A0879CC50683A6DA03CE /* AgoraAudioIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9BA04590258C3E19B9E94549F9F15A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585F631E8906FB25678E57B457A1F2B3;
+			remoteInfo = "Pods-IIBLL_Example";
+		};
+		F8626821644392054B74FF0975735192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DAE373B5ED628BD6B0C7844D431C99;
+			remoteInfo = IIBLL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03621A5B4510F85751CE11E4B662135D /* Pods-IIBLL_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIBLL_Tests-umbrella.h"; sourceTree = "<group>"; };
+		05B09066E545FDED046CC8D86A3EE12B /* Pods_IIBLL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIBLL_Tests.framework; path = "Pods-IIBLL_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		084AF9ABF366BD73A6EBCAE20E300715 /* BHModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleProtocol.h; path = IIBLL/Classes/BeeHive/BHModuleProtocol.h; sourceTree = "<group>"; };
+		1113C05290B1EDA2C165BED90B1D9C55 /* IIBLL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IIBLL-dummy.m"; sourceTree = "<group>"; };
+		1B7DC8C852540A466CF4F4DBEDF5ECA9 /* IIBLL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIBLL-umbrella.h"; sourceTree = "<group>"; };
+		1F82FBBA1E3E5ED4D1D6909D6C4B408D /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = IIBLL/Classes/BeeHive/BHServiceManager.m; sourceTree = "<group>"; };
+		2050FC072E66600EE70F4948B849EF14 /* BHAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAnnotation.m; path = IIBLL/Classes/BeeHive/BHAnnotation.m; sourceTree = "<group>"; };
+		25C531746DE7F933A9D1351C60281F3F /* BeeHive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = IIBLL/Classes/BeeHive/BeeHive.bundle; sourceTree = "<group>"; };
+		2AC87516793B45C6CCC245F17AAA0A5B /* BHAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAppDelegate.h; path = IIBLL/Classes/BeeHive/BHAppDelegate.h; sourceTree = "<group>"; };
+		385EBB426DD8EC0E519859B2760BD465 /* BHDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHDefines.h; path = IIBLL/Classes/BeeHive/BHDefines.h; sourceTree = "<group>"; };
+		3919BB2BE83049567B009C21EBDFC031 /* BHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHConfig.m; path = IIBLL/Classes/BeeHive/BHConfig.m; sourceTree = "<group>"; };
+		3E2EA4AFA35C8D3196BECC5E4DF72C33 /* BeeHive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHive.m; path = IIBLL/Classes/BeeHive/BeeHive.m; sourceTree = "<group>"; };
+		40DC4618D705A0879CC50683A6DA03CE /* AgoraAudioIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AgoraAudioIBLL.h; sourceTree = "<group>"; };
+		43B75F46FD6CAB073137D5EFC91A300F /* LoginIBLLOC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginIBLLOC.h; sourceTree = "<group>"; };
+		4425F597F1848F15E70DA1C21413227C /* IIBLL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IIBLL.framework; path = IIBLL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4461EAFD80D413347C851AF82F981F01 /* LoginIBLLOC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginIBLLOC.m; sourceTree = "<group>"; };
+		489A3DCDC6087F33E41BACA4084907E3 /* IIBLL-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IIBLL-Info.plist"; sourceTree = "<group>"; };
+		4F92E878EF1F7F0E3A25431D40D1C745 /* IIExchangeIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IIExchangeIBLL.h; sourceTree = "<group>"; };
+		54A64D1EE4752D4893EE576DED449DBE /* Pods-IIBLL_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIBLL_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63E0AA2DA4AD8D17A33F83A60E9E8285 /* BHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHCommon.h; path = IIBLL/Classes/BeeHive/BHCommon.h; sourceTree = "<group>"; };
+		69FD0EF3AD4D3F0EEB4DA31E3624B6E0 /* BHWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHWatchDog.h; path = IIBLL/Classes/BeeHive/BHWatchDog.h; sourceTree = "<group>"; };
+		76AEC09706DC81B4B4C57E2C48EB1F4E /* BHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHRouter.m; path = IIBLL/Classes/BeeHive/BHRouter.m; sourceTree = "<group>"; };
+		771CE91F9F6556435E5241318221A5A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		77653D1A3711B32E637B805EB3AFDB65 /* BHContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHContext.h; path = IIBLL/Classes/BeeHive/BHContext.h; sourceTree = "<group>"; };
+		78FF9DA4651FF34003A327EDCAC25EF4 /* Pods-IIBLL_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIBLL_Example-dummy.m"; sourceTree = "<group>"; };
+		7D480DD0A5EA8893B8A8AC122BD27BD3 /* Pods-IIBLL_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIBLL_Example-umbrella.h"; sourceTree = "<group>"; };
+		7ECF76A0379463CA1B81538C87CDBEA0 /* Pods-IIBLL_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Example-Info.plist"; sourceTree = "<group>"; };
+		836631C179FCAD3AF1010091CBA98ADE /* Pods-IIBLL_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IIBLL_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8592842FE5DB638520E20328D3B446A2 /* IIBLL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIBLL-prefix.pch"; sourceTree = "<group>"; };
+		87837197C254A0C19CFF1513FE0D6039 /* DiscoverIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DiscoverIBLL.h; sourceTree = "<group>"; };
+		87E1E2B433F39CB9F788649385E55C9E /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = IIBLL/Classes/BeeHive/BHModuleManager.h; sourceTree = "<group>"; };
+		88C15D94EB1E1859576C0C6B0C7864DD /* BHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHConfig.h; path = IIBLL/Classes/BeeHive/BHConfig.h; sourceTree = "<group>"; };
+		8EB34074004DB2E6A97E1CDC10818583 /* Pods-IIBLL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		934A9FE96BBC0993CB6DE4847EEB9F6E /* Pods-IIBLL_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		963891EFEDB6351F991B4D9B3E68E493 /* BHTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTimeProfiler.h; path = IIBLL/Classes/BeeHive/BHTimeProfiler.h; sourceTree = "<group>"; };
+		973887B33185E496666587A468F8FCF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9A096315527EE115854F61506C3B8C5C /* WorkBenchIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WorkBenchIBLL.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11EB346D597568EE883BDB5F6AD93BC /* Pods_IIBLL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIBLL_Example.framework; path = "Pods-IIBLL_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DA54103817133D1F2DB7D3B53FE0B5 /* Pods-IIBLL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A656BEDF52ADC671A14803433B45934E /* IIBLL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IIBLL.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8FB2A7228F2E4B4D744E21918FFCF58 /* BHContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHContext.m; path = IIBLL/Classes/BeeHive/BHContext.m; sourceTree = "<group>"; };
+		ADEBCD12B63F8892DCE652AF2B42283A /* WebEXIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebEXIBLL.h; sourceTree = "<group>"; };
+		B0892113440F0E67657847D9CA7C2A05 /* Pods-IIBLL_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIBLL_Tests-dummy.m"; sourceTree = "<group>"; };
+		B14A465F0C36CF55AC63EDDA76EAD09F /* Pods-IIBLL_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B19245EF156877F21E9A7CA67F1B7A88 /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = IIBLL/Classes/BeeHive/BHModuleManager.m; sourceTree = "<group>"; };
+		B8B7FC2D95F6E2A92F5AB4D28ADF21D9 /* Pods-IIBLL_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Tests-Info.plist"; sourceTree = "<group>"; };
+		C0F0C9D6686F97486D33254CEF89A73F /* IIBLL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IIBLL.modulemap; sourceTree = "<group>"; };
+		C807935CEA55FC49264F1D374A3E0919 /* BHAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAppDelegate.m; path = IIBLL/Classes/BeeHive/BHAppDelegate.m; sourceTree = "<group>"; };
+		CAA25D99302E6C1A923EA358EE165CAF /* Pods-IIBLL_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIBLL_Tests.modulemap"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDB3C17891A5F1DF130976111BEBD481 /* CloudMineIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudMineIBLL.h; sourceTree = "<group>"; };
+		CE7757B02B954F4D7B82236CCA0DC01D /* Pods-IIBLL_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIBLL_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE957AD77560AE5778B068F5C410D334 /* Pods-IIBLL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D02C540064A6FB5EB9499BA18951B227 /* BHTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHTimeProfiler.m; path = IIBLL/Classes/BeeHive/BHTimeProfiler.m; sourceTree = "<group>"; };
+		D585BC5513336A71AC8B71E6D3B40846 /* Pods-IIBLL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D5F453888F8EAB8F9FCB301EFD72430E /* BeeHive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeHive.h; path = IIBLL/Classes/BeeHive/BeeHive.h; sourceTree = "<group>"; };
+		D970E3B1811A033F9172AE1F9FAF976D /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = IIBLL/Classes/BeeHive/BHServiceProtocol.h; sourceTree = "<group>"; };
+		D9FCE716645CF25C73D179AB5E9BABF1 /* BHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHRouter.h; path = IIBLL/Classes/BeeHive/BHRouter.h; sourceTree = "<group>"; };
+		E0E43B02C78CB1016B2EE1FDF4428177 /* Pods-IIBLL_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIBLL_Example.modulemap"; sourceTree = "<group>"; };
+		E31146A5C76CBD8AD755FD1629AE1DCD /* BHAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAnnotation.h; path = IIBLL/Classes/BeeHive/BHAnnotation.h; sourceTree = "<group>"; };
+		F8053D5A2EC08EE1BC5AEFA33E329F9C /* IIBLL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IIBLL.xcconfig; sourceTree = "<group>"; };
+		FA9FFD614A680A775C1A11A60855A7F3 /* BHServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceManager.h; path = IIBLL/Classes/BeeHive/BHServiceManager.h; sourceTree = "<group>"; };
+		FB5AEB80403334FE78CFF62B4B1C4BAF /* BHWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHWatchDog.m; path = IIBLL/Classes/BeeHive/BHWatchDog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F95150B4B8D5F755BACEAE5FEA18E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8385A1FAC4CCBC0E1C75B7BE0A15121C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7092A4B678A48C9941CD431AB0BBF254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CCB4F70000AEC87D8954506541017F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1C9A783CB3986D06202447684A4C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F5076CC57EA06181B3870E89B26215 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0851E43B2F2503D28F628103202A900E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A656BEDF52ADC671A14803433B45934E /* IIBLL.podspec */,
+				771CE91F9F6556435E5241318221A5A1 /* LICENSE */,
+				973887B33185E496666587A468F8FCF2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		21F66CB98AAD47EBF01D87FA189BAA58 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				87837197C254A0C19CFF1513FE0D6039 /* DiscoverIBLL.h */,
+			);
+			name = Discover;
+			path = IIBLL/Classes/IBLL/Discover;
+			sourceTree = "<group>";
+		};
+		27A1B43177F150B07F8A9D7BAC893ED8 /* IBLL */ = {
+			isa = PBXGroup;
+			children = (
+				B06FB60AD3C67C2EADAC013B7BDDEF6D /* AgoraAudio */,
+				21F66CB98AAD47EBF01D87FA189BAA58 /* Discover */,
+				7B59F8D64EAD57E394BED3B0EECD3926 /* Exchange */,
+				5D01F56E47B1342F166442DF04B2B53A /* Login */,
+				51D957F0088A3BB94876B7B4D8E781A4 /* PersonCenter */,
+				7F47EA64A551EFE2AC700650A5BD4788 /* WebEX */,
+				93B52A2D23D73AF40EF6530F5B209251 /* WorkBench */,
+			);
+			name = IBLL;
+			sourceTree = "<group>";
+		};
+		496C8C92325FEE3F0904ECDDC0FA34AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F01DB22D597E3EC9D38DB399E0017616 /* Pods-IIBLL_Example */,
+				77500735FD175F3EAF8EAA7F12C7C487 /* Pods-IIBLL_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F9A34A6EFEC3769CF16D4ADC08A84C0 /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				D5F453888F8EAB8F9FCB301EFD72430E /* BeeHive.h */,
+				3E2EA4AFA35C8D3196BECC5E4DF72C33 /* BeeHive.m */,
+				E31146A5C76CBD8AD755FD1629AE1DCD /* BHAnnotation.h */,
+				2050FC072E66600EE70F4948B849EF14 /* BHAnnotation.m */,
+				2AC87516793B45C6CCC245F17AAA0A5B /* BHAppDelegate.h */,
+				C807935CEA55FC49264F1D374A3E0919 /* BHAppDelegate.m */,
+				63E0AA2DA4AD8D17A33F83A60E9E8285 /* BHCommon.h */,
+				88C15D94EB1E1859576C0C6B0C7864DD /* BHConfig.h */,
+				3919BB2BE83049567B009C21EBDFC031 /* BHConfig.m */,
+				77653D1A3711B32E637B805EB3AFDB65 /* BHContext.h */,
+				A8FB2A7228F2E4B4D744E21918FFCF58 /* BHContext.m */,
+				385EBB426DD8EC0E519859B2760BD465 /* BHDefines.h */,
+				87E1E2B433F39CB9F788649385E55C9E /* BHModuleManager.h */,
+				B19245EF156877F21E9A7CA67F1B7A88 /* BHModuleManager.m */,
+				084AF9ABF366BD73A6EBCAE20E300715 /* BHModuleProtocol.h */,
+				D9FCE716645CF25C73D179AB5E9BABF1 /* BHRouter.h */,
+				76AEC09706DC81B4B4C57E2C48EB1F4E /* BHRouter.m */,
+				FA9FFD614A680A775C1A11A60855A7F3 /* BHServiceManager.h */,
+				1F82FBBA1E3E5ED4D1D6909D6C4B408D /* BHServiceManager.m */,
+				D970E3B1811A033F9172AE1F9FAF976D /* BHServiceProtocol.h */,
+				963891EFEDB6351F991B4D9B3E68E493 /* BHTimeProfiler.h */,
+				D02C540064A6FB5EB9499BA18951B227 /* BHTimeProfiler.m */,
+				69FD0EF3AD4D3F0EEB4DA31E3624B6E0 /* BHWatchDog.h */,
+				FB5AEB80403334FE78CFF62B4B1C4BAF /* BHWatchDog.m */,
+				6F1E3FB00CDCF9E0A0A3029BE5AD86C9 /* Resources */,
+			);
+			name = BeeHive;
+			sourceTree = "<group>";
+		};
+		51D957F0088A3BB94876B7B4D8E781A4 /* PersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				CDB3C17891A5F1DF130976111BEBD481 /* CloudMineIBLL.h */,
+			);
+			name = PersonCenter;
+			path = IIBLL/Classes/IBLL/PersonCenter;
+			sourceTree = "<group>";
+		};
+		5D01F56E47B1342F166442DF04B2B53A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				43B75F46FD6CAB073137D5EFC91A300F /* LoginIBLLOC.h */,
+				4461EAFD80D413347C851AF82F981F01 /* LoginIBLLOC.m */,
+			);
+			name = Login;
+			path = IIBLL/Classes/IBLL/Login;
+			sourceTree = "<group>";
+		};
+		6F1E3FB00CDCF9E0A0A3029BE5AD86C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25C531746DE7F933A9D1351C60281F3F /* BeeHive.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		77500735FD175F3EAF8EAA7F12C7C487 /* Pods-IIBLL_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CAA25D99302E6C1A923EA358EE165CAF /* Pods-IIBLL_Tests.modulemap */,
+				54A64D1EE4752D4893EE576DED449DBE /* Pods-IIBLL_Tests-acknowledgements.markdown */,
+				B14A465F0C36CF55AC63EDDA76EAD09F /* Pods-IIBLL_Tests-acknowledgements.plist */,
+				B0892113440F0E67657847D9CA7C2A05 /* Pods-IIBLL_Tests-dummy.m */,
+				B8B7FC2D95F6E2A92F5AB4D28ADF21D9 /* Pods-IIBLL_Tests-Info.plist */,
+				03621A5B4510F85751CE11E4B662135D /* Pods-IIBLL_Tests-umbrella.h */,
+				CE957AD77560AE5778B068F5C410D334 /* Pods-IIBLL_Tests.debug.xcconfig */,
+				8EB34074004DB2E6A97E1CDC10818583 /* Pods-IIBLL_Tests.release.xcconfig */,
+			);
+			name = "Pods-IIBLL_Tests";
+			path = "Target Support Files/Pods-IIBLL_Tests";
+			sourceTree = "<group>";
+		};
+		792877718EFD2C360BCC1E35BAECCCA6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0F0C9D6686F97486D33254CEF89A73F /* IIBLL.modulemap */,
+				F8053D5A2EC08EE1BC5AEFA33E329F9C /* IIBLL.xcconfig */,
+				1113C05290B1EDA2C165BED90B1D9C55 /* IIBLL-dummy.m */,
+				489A3DCDC6087F33E41BACA4084907E3 /* IIBLL-Info.plist */,
+				8592842FE5DB638520E20328D3B446A2 /* IIBLL-prefix.pch */,
+				1B7DC8C852540A466CF4F4DBEDF5ECA9 /* IIBLL-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IIBLL";
+			sourceTree = "<group>";
+		};
+		7B59F8D64EAD57E394BED3B0EECD3926 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				4F92E878EF1F7F0E3A25431D40D1C745 /* IIExchangeIBLL.h */,
+			);
+			name = Exchange;
+			path = IIBLL/Classes/IBLL/Exchange;
+			sourceTree = "<group>";
+		};
+		7F47EA64A551EFE2AC700650A5BD4788 /* WebEX */ = {
+			isa = PBXGroup;
+			children = (
+				ADEBCD12B63F8892DCE652AF2B42283A /* WebEXIBLL.h */,
+			);
+			name = WebEX;
+			path = IIBLL/Classes/IBLL/WebEX;
+			sourceTree = "<group>";
+		};
+		93B52A2D23D73AF40EF6530F5B209251 /* WorkBench */ = {
+			isa = PBXGroup;
+			children = (
+				9A096315527EE115854F61506C3B8C5C /* WorkBenchIBLL.h */,
+			);
+			name = WorkBench;
+			path = IIBLL/Classes/IBLL/WorkBench;
+			sourceTree = "<group>";
+		};
+		97B28C62A9E3DE650B55A25E2680AC1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4425F597F1848F15E70DA1C21413227C /* IIBLL.framework */,
+				A11EB346D597568EE883BDB5F6AD93BC /* Pods_IIBLL_Example.framework */,
+				05B09066E545FDED046CC8D86A3EE12B /* Pods_IIBLL_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B06FB60AD3C67C2EADAC013B7BDDEF6D /* AgoraAudio */ = {
+			isa = PBXGroup;
+			children = (
+				40DC4618D705A0879CC50683A6DA03CE /* AgoraAudioIBLL.h */,
+			);
+			name = AgoraAudio;
+			path = IIBLL/Classes/IBLL/AgoraAudio;
+			sourceTree = "<group>";
+		};
+		BB46001FF82BA91457D19E0695A1155B /* IIBLL */ = {
+			isa = PBXGroup;
+			children = (
+				4F9A34A6EFEC3769CF16D4ADC08A84C0 /* BeeHive */,
+				27A1B43177F150B07F8A9D7BAC893ED8 /* IBLL */,
+				0851E43B2F2503D28F628103202A900E /* Pod */,
+				792877718EFD2C360BCC1E35BAECCCA6 /* Support Files */,
+			);
+			name = IIBLL;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F7293FFD78B0BA1EF286D319124230B8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				97B28C62A9E3DE650B55A25E2680AC1C /* Products */,
+				496C8C92325FEE3F0904ECDDC0FA34AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F01DB22D597E3EC9D38DB399E0017616 /* Pods-IIBLL_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E0E43B02C78CB1016B2EE1FDF4428177 /* Pods-IIBLL_Example.modulemap */,
+				CE7757B02B954F4D7B82236CCA0DC01D /* Pods-IIBLL_Example-acknowledgements.markdown */,
+				934A9FE96BBC0993CB6DE4847EEB9F6E /* Pods-IIBLL_Example-acknowledgements.plist */,
+				78FF9DA4651FF34003A327EDCAC25EF4 /* Pods-IIBLL_Example-dummy.m */,
+				836631C179FCAD3AF1010091CBA98ADE /* Pods-IIBLL_Example-frameworks.sh */,
+				7ECF76A0379463CA1B81538C87CDBEA0 /* Pods-IIBLL_Example-Info.plist */,
+				7D480DD0A5EA8893B8A8AC122BD27BD3 /* Pods-IIBLL_Example-umbrella.h */,
+				A1DA54103817133D1F2DB7D3B53FE0B5 /* Pods-IIBLL_Example.debug.xcconfig */,
+				D585BC5513336A71AC8B71E6D3B40846 /* Pods-IIBLL_Example.release.xcconfig */,
+			);
+			name = "Pods-IIBLL_Example";
+			path = "Target Support Files/Pods-IIBLL_Example";
+			sourceTree = "<group>";
+		};
+		F7293FFD78B0BA1EF286D319124230B8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB46001FF82BA91457D19E0695A1155B /* IIBLL */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B3B90695EB7189957A3E9377BDD3258 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E742C63805C7D17981435DC2F1678296 /* Pods-IIBLL_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA6BD858629EFDC180FEDE2D96AF20C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F5FC450D00DD559BAD0C207DC20675 /* Pods-IIBLL_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44747B39BC63431282DD1DC04CAB488 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EE4215C6AA18FE60F39B86A5797DF4 /* AgoraAudioIBLL.h in Headers */,
+				C0C04863200B2D4AAD866FB7B41CF7A0 /* BeeHive.h in Headers */,
+				9D2B6E783FF7E8499935F29968FBC8A8 /* BHAnnotation.h in Headers */,
+				F5625DE37A45DE1A164D0565A24A1CBA /* BHAppDelegate.h in Headers */,
+				272DF4692827B34E561B2681F649CEEB /* BHCommon.h in Headers */,
+				459E79C5F961F05AE400F17DB74BB2D0 /* BHConfig.h in Headers */,
+				6B9220287EFE5F17BF9C76D0A5928C5E /* BHContext.h in Headers */,
+				092BD3724A8527A9E042F0171C5FAC52 /* BHDefines.h in Headers */,
+				028840561BDC3BF473DC79E160411452 /* BHModuleManager.h in Headers */,
+				0EC228198CAFA82952EC1CF9F568CD42 /* BHModuleProtocol.h in Headers */,
+				5DECF5BA2AFD041A2002E18632FBEFD3 /* BHRouter.h in Headers */,
+				EEB7AEF19567FD70731C3A80861BB4B2 /* BHServiceManager.h in Headers */,
+				618494433C65AFF8CA70DF2D1100C250 /* BHServiceProtocol.h in Headers */,
+				238E26818956463225B559C9A17222BD /* BHTimeProfiler.h in Headers */,
+				99D53C7B476B757F9735C7507B684E52 /* BHWatchDog.h in Headers */,
+				F6E4C996EDBF8A018CD63CE2660578E2 /* CloudMineIBLL.h in Headers */,
+				BEA19275E64B313269779C00AB0E07A3 /* DiscoverIBLL.h in Headers */,
+				BA1B88C7F04B335F5BB60CA76A57D84C /* IIBLL-umbrella.h in Headers */,
+				A89C61F97ACF5A7CE214EEC935BAA866 /* IIExchangeIBLL.h in Headers */,
+				F84F60588C033FD3B183827AE0AEC8EC /* LoginIBLLOC.h in Headers */,
+				7F2E588D41AE8FE9BA19C4CB83C517E3 /* WebEXIBLL.h in Headers */,
+				28496F2BBA0686E79A305EE109F77C9B /* WorkBenchIBLL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15DAE373B5ED628BD6B0C7844D431C99 /* IIBLL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4489704A8A01548044A125FDD9DA6F8A /* Build configuration list for PBXNativeTarget "IIBLL" */;
+			buildPhases = (
+				F44747B39BC63431282DD1DC04CAB488 /* Headers */,
+				88B46720D51B0668D8E7756BA898543A /* Sources */,
+				7092A4B678A48C9941CD431AB0BBF254 /* Frameworks */,
+				0ED5C9A44EE4639CB7BC4A3AD863878C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IIBLL;
+			productName = IIBLL;
+			productReference = 4425F597F1848F15E70DA1C21413227C /* IIBLL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B853C2CA5F8A0C03828F9CDD217723D /* Pods-IIBLL_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB38437D491DC5C600F520E68351029 /* Build configuration list for PBXNativeTarget "Pods-IIBLL_Tests" */;
+			buildPhases = (
+				1B3B90695EB7189957A3E9377BDD3258 /* Headers */,
+				280E52CF858B1AB12FEA05199EB401A8 /* Sources */,
+				9D1C9A783CB3986D06202447684A4C18 /* Frameworks */,
+				008ED5CFA64575C6D5902903780F2CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2A9F33AA84DBB249A903BB0F053FED2 /* PBXTargetDependency */,
+			);
+			name = "Pods-IIBLL_Tests";
+			productName = "Pods-IIBLL_Tests";
+			productReference = 05B09066E545FDED046CC8D86A3EE12B /* Pods_IIBLL_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		585F631E8906FB25678E57B457A1F2B3 /* Pods-IIBLL_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1F2C5BE86095C3AF84EC6F76380A82 /* Build configuration list for PBXNativeTarget "Pods-IIBLL_Example" */;
+			buildPhases = (
+				CCA6BD858629EFDC180FEDE2D96AF20C /* Headers */,
+				F5B20E0DCE398BD406E022810AD3C4F8 /* Sources */,
+				6F95150B4B8D5F755BACEAE5FEA18E5E /* Frameworks */,
+				141E2DF8B2262463617B83B52855ECAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687BC2658F841279FD32A66AD6CE274A /* PBXTargetDependency */,
+			);
+			name = "Pods-IIBLL_Example";
+			productName = "Pods-IIBLL_Example";
+			productReference = A11EB346D597568EE883BDB5F6AD93BC /* Pods_IIBLL_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 97B28C62A9E3DE650B55A25E2680AC1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DAE373B5ED628BD6B0C7844D431C99 /* IIBLL */,
+				585F631E8906FB25678E57B457A1F2B3 /* Pods-IIBLL_Example */,
+				2B853C2CA5F8A0C03828F9CDD217723D /* Pods-IIBLL_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008ED5CFA64575C6D5902903780F2CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED5C9A44EE4639CB7BC4A3AD863878C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D382F1FBCAACB3F4876565485335C9 /* BeeHive.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141E2DF8B2262463617B83B52855ECAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280E52CF858B1AB12FEA05199EB401A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DCE1ABD0320300614CC25858C3870B /* Pods-IIBLL_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B46720D51B0668D8E7756BA898543A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764D4A0D507A3D90179FC9F9E0CD7E8A /* BeeHive.m in Sources */,
+				5C43925ED33E22DCC533E0CBE2B3DD0D /* BHAnnotation.m in Sources */,
+				2F71379F0C27BCE487E6D6C109A9FE3D /* BHAppDelegate.m in Sources */,
+				2792F0DC5A528996F94A292226EC072A /* BHConfig.m in Sources */,
+				04AD0FCA303F438C717EA2E6582304AF /* BHContext.m in Sources */,
+				4C7B193D1AF14D2E52755B6C17F49E78 /* BHModuleManager.m in Sources */,
+				062BA1958F8692E9B01B3F91EB5718CD /* BHRouter.m in Sources */,
+				BD217A9B38BDBF6BB9993270C26C2A8F /* BHServiceManager.m in Sources */,
+				A947C16C62F6C82135A41B47AA039DFD /* BHTimeProfiler.m in Sources */,
+				DD15958275A19E901184E9C849244B5D /* BHWatchDog.m in Sources */,
+				E0315DF39B842835A85B5DB5EAA0AF8D /* IIBLL-dummy.m in Sources */,
+				B2B3BC1F0CE6D3118B4A57FAD7CC6FFF /* LoginIBLLOC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B20E0DCE398BD406E022810AD3C4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01048FC3BD93A2DD3D4D8FD7CF7689BA /* Pods-IIBLL_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687BC2658F841279FD32A66AD6CE274A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IIBLL;
+			target = 15DAE373B5ED628BD6B0C7844D431C99 /* IIBLL */;
+			targetProxy = F8626821644392054B74FF0975735192 /* PBXContainerItemProxy */;
+		};
+		F2A9F33AA84DBB249A903BB0F053FED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IIBLL_Example";
+			target = 585F631E8906FB25678E57B457A1F2B3 /* Pods-IIBLL_Example */;
+			targetProxy = 3F9BA04590258C3E19B9E94549F9F15A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11C4AD05A61CDE0F2F249CFC25717A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE957AD77560AE5778B068F5C410D334 /* Pods-IIBLL_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IIBLL_Tests/Pods-IIBLL_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IIBLL_Tests/Pods-IIBLL_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196F79825B713E34C85F6A9A01757581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DA54103817133D1F2DB7D3B53FE0B5 /* Pods-IIBLL_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IIBLL_Example/Pods-IIBLL_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IIBLL_Example/Pods-IIBLL_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		333382EDF2DD2187D947C319D049E748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB34074004DB2E6A97E1CDC10818583 /* Pods-IIBLL_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IIBLL_Tests/Pods-IIBLL_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IIBLL_Tests/Pods-IIBLL_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5176AC1F87B268A4F317D7BDF3DDA5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8053D5A2EC08EE1BC5AEFA33E329F9C /* IIBLL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IIBLL/IIBLL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IIBLL/IIBLL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IIBLL/IIBLL.modulemap";
+				PRODUCT_MODULE_NAME = IIBLL;
+				PRODUCT_NAME = IIBLL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60CB49C81E606064264AA89BF82CDDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8053D5A2EC08EE1BC5AEFA33E329F9C /* IIBLL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IIBLL/IIBLL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IIBLL/IIBLL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IIBLL/IIBLL.modulemap";
+				PRODUCT_MODULE_NAME = IIBLL;
+				PRODUCT_NAME = IIBLL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C0C8EAB23D5BB191CD78981D5BFFA043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D585BC5513336A71AC8B71E6D3B40846 /* Pods-IIBLL_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IIBLL_Example/Pods-IIBLL_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IIBLL_Example/Pods-IIBLL_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4489704A8A01548044A125FDD9DA6F8A /* Build configuration list for PBXNativeTarget "IIBLL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CB49C81E606064264AA89BF82CDDB6 /* Debug */,
+				5176AC1F87B268A4F317D7BDF3DDA5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB38437D491DC5C600F520E68351029 /* Build configuration list for PBXNativeTarget "Pods-IIBLL_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C4AD05A61CDE0F2F249CFC25717A48 /* Debug */,
+				333382EDF2DD2187D947C319D049E748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1F2C5BE86095C3AF84EC6F76380A82 /* Build configuration list for PBXNativeTarget "Pods-IIBLL_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196F79825B713E34C85F6A9A01757581 /* Debug */,
+				C0C8EAB23D5BB191CD78981D5BFFA043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

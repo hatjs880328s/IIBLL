@@ -1,0 +1,6 @@
+framework module Pods_IIBLL_Tests {
+  umbrella header "Pods-IIBLL_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

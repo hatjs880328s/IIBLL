@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IIBLL_Example' do
+  pod 'IIBLL', :path => '../'
+
+  target 'IIBLL_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

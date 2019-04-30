@@ -1,0 +1,21 @@
+PODS:
+  - IIBLL (0.1.0):
+    - IIBLL/BeeHive (= 0.1.0)
+    - IIBLL/IBLL (= 0.1.0)
+  - IIBLL/BeeHive (0.1.0)
+  - IIBLL/IBLL (0.1.0):
+    - IIBLL/BeeHive
+
+DEPENDENCIES:
+  - IIBLL (from `../`)
+
+EXTERNAL SOURCES:
+  IIBLL:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IIBLL: bf036791efd75280070c6578114fd5e8558889f8
+
+PODFILE CHECKSUM: bdce4b827010cf7ba04782fc75a4893f52749cce
+
+COCOAPODS: 1.6.1
