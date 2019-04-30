@@ -8,46 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		01048FC3BD93A2DD3D4D8FD7CF7689BA /* Pods-IIBLL_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF9DA4651FF34003A327EDCAC25EF4 /* Pods-IIBLL_Example-dummy.m */; };
-		0486B37543E4D84D60A3905C14129DCF /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C807935CEA55FC49264F1D374A3E0919 /* BHAppDelegate.m */; };
+		028840561BDC3BF473DC79E160411452 /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBB1A440DB63F52DF5917FEFBFCADCA /* BHModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07F5FC450D00DD559BAD0C207DC20675 /* Pods-IIBLL_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D480DD0A5EA8893B8A8AC122BD27BD3 /* Pods-IIBLL_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		084E367997D4F4A50031D8F2B434D80C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		092D6A4FC66AAF062B77EE59A553AD63 /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E1E2B433F39CB9F788649385E55C9E /* BHModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A0E344B31D834F5D754FD4D3F5854FD /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3919BB2BE83049567B009C21EBDFC031 /* BHConfig.m */; };
-		0E71F5C44C794F602C7A6831D3E130D3 /* DiscoverIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7E2B2D606D95FA460A4C00A310E284 /* DiscoverIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14C4061D97A98F1575846911230729F0 /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B19245EF156877F21E9A7CA67F1B7A88 /* BHModuleManager.m */; };
-		1B9BAD1661FE9842F1C0533D9C5B4389 /* IIExchangeIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED58122EBAE6DE35792D13921149E34 /* IIExchangeIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		254060DF18DB4A4662CBA89499A87389 /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 25C531746DE7F933A9D1351C60281F3F /* BeeHive.bundle */; };
+		092BD3724A8527A9E042F0171C5FAC52 /* BHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9A78367CFCADCC4D4F0568E2738368 /* BHDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC228198CAFA82952EC1CF9F568CD42 /* BHModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2431CC9E8BFAA9E980CE40ED8E875786 /* BHModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187CBEE2CB502481BAEA3FAB53DF0BDD /* IIBLL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7632AB155804DC08ABC912E7854009F /* IIBLL-dummy.m */; };
+		1AF6664A53B63FA268D7D9CC0315E3C4 /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4F75A51DBCA5CA653B00D812E679 /* BHConfig.m */; };
+		21CBD253619EDFC7156A30104A059856 /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = CABCCA5FDAC4089C8F98F0C80D93F730 /* BeeHive.m */; };
+		238E26818956463225B559C9A17222BD /* BHTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AC76040BD2A93964D9980F4CB2238C /* BHTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		272DF4692827B34E561B2681F649CEEB /* BHCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 673B97B82DBCDD426881487BD418BC5D /* BHCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28496F2BBA0686E79A305EE109F77C9B /* WorkBenchIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = A3314F6705D109AC52225C299D940816 /* WorkBenchIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31F5076CC57EA06181B3870E89B26215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		32891A87C863DCA10A40EDFE87CFD289 /* BHModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 084AF9ABF366BD73A6EBCAE20E300715 /* BHModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BF451A4D0CF3D963A8F4A43626E2958 /* BHCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E0AA2DA4AD8D17A33F83A60E9E8285 /* BHCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		469FEB309AA497E3D4BCF73461451288 /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2EA4AFA35C8D3196BECC5E4DF72C33 /* BeeHive.m */; };
-		5217D7737631832A0B7633201CD60D61 /* AgoraAudioIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 040500B538C9214F1606503983319622 /* AgoraAudioIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56CAE79B8E21E1C45BA8BD5E501908F2 /* BHContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 77653D1A3711B32E637B805EB3AFDB65 /* BHContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63D7B578255564E433422AACA65C145C /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C540064A6FB5EB9499BA18951B227 /* BHTimeProfiler.m */; };
-		6C6D8D4622C09DA356BF1CE549BC85C0 /* BHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 385EBB426DD8EC0E519859B2760BD465 /* BHDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79ED1BA0D41C54F3EF89EE6E3B913F93 /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5AEB80403334FE78CFF62B4B1C4BAF /* BHWatchDog.m */; };
-		7B7EE440BAA4BD6F339EF1E94C8A8631 /* BHWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FD0EF3AD4D3F0EEB4DA31E3624B6E0 /* BHWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F403D2772D5A7CFEA8E6502A4F95CEF /* BHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FCE716645CF25C73D179AB5E9BABF1 /* BHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FF64FD4B1EA147C9DE6AB5A66F0F077 /* BHAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = E31146A5C76CBD8AD755FD1629AE1DCD /* BHAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82C0540C2B31A035D0229DF8198B999D /* BeeHive.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F453888F8EAB8F9FCB301EFD72430E /* BeeHive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		340A1AF172AC7D6A3AEAE4061A01841A /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 851BB9C7EEBF66E64E7305D6199A61F3 /* BHModuleManager.m */; };
+		459E79C5F961F05AE400F17DB74BB2D0 /* BHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A77116EE0DAF87D6DB98BBB0754399 /* BHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E92AD96AE9BF968E49D624C05CB3F1 /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E60BC4FAB03DFF39680B74F10DD04AD /* BHAnnotation.m */; };
+		5DECF5BA2AFD041A2002E18632FBEFD3 /* BHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A51A1B4D4CB67CD4DF63C2FE2A32D4 /* BHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618494433C65AFF8CA70DF2D1100C250 /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A98C898D1F0EE894F06265AF2EA38B2A /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64CCB4F70000AEC87D8954506541017F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6B8C12AB030300A6764F5599A7B830DF /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 895F0560824C7FBA8665D93549E35E16 /* BHRouter.m */; };
+		6B9220287EFE5F17BF9C76D0A5928C5E /* BHContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD128599A1DAC1891EC2E2084E02382 /* BHContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C3896CE2432972F4B909041FDCFB2A3 /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AFE0729971342B5ABCC9704D7A825 /* BHServiceManager.m */; };
+		71B88C40FDA09E11BF909727F40C009B /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = EECBDB30CACC5FA7C979AA757693FEDE /* BHWatchDog.m */; };
+		7F2E588D41AE8FE9BA19C4CB83C517E3 /* WebEXIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50194B46B47D64608FA9678E3FE4CB /* WebEXIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8385A1FAC4CCBC0E1C75B7BE0A15121C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		9212AEFEA7460800BB479A48F9FDBD5B /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D970E3B1811A033F9172AE1F9FAF976D /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83D382F1FBCAACB3F4876565485335C9 /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D255BBA3BF4BDAFC9154478F3BF3787 /* BeeHive.bundle */; };
+		952872F18FB2FF677EFD69A505DA4F57 /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD31A89BA5FE99CD2C3C61D3767B5BD /* BHAppDelegate.m */; };
+		99D53C7B476B757F9735C7507B684E52 /* BHWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3583E578B19905853DCEBFC3A3527BDD /* BHWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99DCE1ABD0320300614CC25858C3870B /* Pods-IIBLL_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0892113440F0E67657847D9CA7C2A05 /* Pods-IIBLL_Tests-dummy.m */; };
-		A8EAC02FD12F665790B92292B1124DDC /* BHTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 963891EFEDB6351F991B4D9B3E68E493 /* BHTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B200A172CACF8A2F555FB958630A5F93 /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2050FC072E66600EE70F4948B849EF14 /* BHAnnotation.m */; };
-		B30347965B5D1E65FFDEEB8F0EA5BF81 /* BHAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC87516793B45C6CCC245F17AAA0A5B /* BHAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B78930CF92D35BAB15CACEC0CA6BD967 /* BHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C15D94EB1E1859576C0C6B0C7864DD /* BHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B899D29E8B06AB64A7430500692837E6 /* CloudMineIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E6BC404E6958A1C683F51BCD735F27 /* CloudMineIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9F004520949113EEE880A2332084ED8 /* IIBLL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1113C05290B1EDA2C165BED90B1D9C55 /* IIBLL-dummy.m */; };
-		BA998925B7FD9A99BB460842C29607D4 /* WorkBenchIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF0196000E2DFB9EFD6AA1B3EAA1F1A /* WorkBenchIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C340897E7578800795290860D3051F73 /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9FFD614A680A775C1A11A60855A7F3 /* BHServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C956DC3BC25684823D84F366F2B91735 /* IIBLL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7DC8C852540A466CF4F4DBEDF5ECA9 /* IIBLL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DED1BC099A6A49F1E44C897A56277EC4 /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEC09706DC81B4B4C57E2C48EB1F4E /* BHRouter.m */; };
-		E40794C5B36721C35B173E64FF077FA7 /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F82FBBA1E3E5ED4D1D6909D6C4B408D /* BHServiceManager.m */; };
+		9D2B6E783FF7E8499935F29968FBC8A8 /* BHAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = F23BA0984A392522898BF4258ABD6DE2 /* BHAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89C61F97ACF5A7CE214EEC935BAA866 /* IIExchangeIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = AA362F9BF25D4BDC64878250743C6C54 /* IIExchangeIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D34B1B1952AE0214998BB336E4153B /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C5263109C5FC24012DB9C32949EBB5 /* BHContext.m */; };
+		BA1B88C7F04B335F5BB60CA76A57D84C /* IIBLL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C435A87187D25905C1CFD7DE80CC7C06 /* IIBLL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA19275E64B313269779C00AB0E07A3 /* DiscoverIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7669017A372C3B1790CBC0750B1DEF /* DiscoverIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C04863200B2D4AAD866FB7B41CF7A0 /* BeeHive.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB8AE9F9EC9FEAAFDC2787B20E9A8B5 /* BeeHive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C126EA8740FFBBBA41C25240CECC98ED /* JustModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE3C9A49BD49D4997CAFAE6AC727520 /* JustModule.swift */; };
+		CE85D40AADDBF3317A2741A243AAAE3E /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A552D9C8D477D8E5EF11EAFB3CC42 /* BHTimeProfiler.m */; };
 		E742C63805C7D17981435DC2F1678296 /* Pods-IIBLL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03621A5B4510F85751CE11E4B662135D /* Pods-IIBLL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED13F557C645ED990E5866E5A0E48918 /* WebEXIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = A737F1D5D0138A80318746C8B18BDF91 /* WebEXIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6025DC4285C36F5875D1881D8047523 /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FB2A7228F2E4B4D744E21918FFCF58 /* BHContext.m */; };
-		FE0BBE89908DE925E3557C444047931A /* LoginIBLLOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 739AD574B634652998E23EB72032F321 /* LoginIBLLOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB7AEF19567FD70731C3A80861BB4B2 /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A415BEB2D107104398BD70DAFFC20363 /* BHServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5625DE37A45DE1A164D0565A24A1CBA /* BHAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DCF46400E37CE9E52D1CF716D77FAC /* BHAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E4C996EDBF8A018CD63CE2660578E2 /* CloudMineIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B4AD8EBEA0300E9133AF9FBBCB0B78 /* CloudMineIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84F60588C033FD3B183827AE0AEC8EC /* LoginIBLLOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9396A6FEC699D46C04648E10DE970511 /* LoginIBLLOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9EE4215C6AA18FE60F39B86A5797DF4 /* AgoraAudioIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F7A25707C0BD62ADDA4AC13E5D6929 /* AgoraAudioIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,91 +63,92 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6E8E78B8778E5B991976CEDA3098F77C;
+			remoteGlobalIDString = 15DAE373B5ED628BD6B0C7844D431C99;
 			remoteInfo = IIBLL;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03621A5B4510F85751CE11E4B662135D /* Pods-IIBLL_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIBLL_Tests-umbrella.h"; sourceTree = "<group>"; };
-		040500B538C9214F1606503983319622 /* AgoraAudioIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AgoraAudioIBLL.h; sourceTree = "<group>"; };
 		05B09066E545FDED046CC8D86A3EE12B /* Pods_IIBLL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIBLL_Tests.framework; path = "Pods-IIBLL_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		084AF9ABF366BD73A6EBCAE20E300715 /* BHModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleProtocol.h; path = IIBLL/Classes/BeeHive/BHModuleProtocol.h; sourceTree = "<group>"; };
-		1113C05290B1EDA2C165BED90B1D9C55 /* IIBLL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IIBLL-dummy.m"; sourceTree = "<group>"; };
-		1B7DC8C852540A466CF4F4DBEDF5ECA9 /* IIBLL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIBLL-umbrella.h"; sourceTree = "<group>"; };
-		1F82FBBA1E3E5ED4D1D6909D6C4B408D /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = IIBLL/Classes/BeeHive/BHServiceManager.m; sourceTree = "<group>"; };
-		2050FC072E66600EE70F4948B849EF14 /* BHAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAnnotation.m; path = IIBLL/Classes/BeeHive/BHAnnotation.m; sourceTree = "<group>"; };
-		25C531746DE7F933A9D1351C60281F3F /* BeeHive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = IIBLL/Classes/BeeHive/BeeHive.bundle; sourceTree = "<group>"; };
-		2AC87516793B45C6CCC245F17AAA0A5B /* BHAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAppDelegate.h; path = IIBLL/Classes/BeeHive/BHAppDelegate.h; sourceTree = "<group>"; };
-		385EBB426DD8EC0E519859B2760BD465 /* BHDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHDefines.h; path = IIBLL/Classes/BeeHive/BHDefines.h; sourceTree = "<group>"; };
-		3919BB2BE83049567B009C21EBDFC031 /* BHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHConfig.m; path = IIBLL/Classes/BeeHive/BHConfig.m; sourceTree = "<group>"; };
-		3E2EA4AFA35C8D3196BECC5E4DF72C33 /* BeeHive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHive.m; path = IIBLL/Classes/BeeHive/BeeHive.m; sourceTree = "<group>"; };
+		1CD128599A1DAC1891EC2E2084E02382 /* BHContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHContext.h; path = IIBLL/Classes/BeeHive/BHContext.h; sourceTree = "<group>"; };
+		2431CC9E8BFAA9E980CE40ED8E875786 /* BHModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleProtocol.h; path = IIBLL/Classes/BeeHive/BHModuleProtocol.h; sourceTree = "<group>"; };
+		3583E578B19905853DCEBFC3A3527BDD /* BHWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHWatchDog.h; path = IIBLL/Classes/BeeHive/BHWatchDog.h; sourceTree = "<group>"; };
+		38652C756AB306826D0AF619A87717AF /* IIBLL-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IIBLL-Info.plist"; sourceTree = "<group>"; };
+		38A51A1B4D4CB67CD4DF63C2FE2A32D4 /* BHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHRouter.h; path = IIBLL/Classes/BeeHive/BHRouter.h; sourceTree = "<group>"; };
+		3E60BC4FAB03DFF39680B74F10DD04AD /* BHAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAnnotation.m; path = IIBLL/Classes/BeeHive/BHAnnotation.m; sourceTree = "<group>"; };
 		4425F597F1848F15E70DA1C21413227C /* IIBLL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IIBLL.framework; path = IIBLL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		489A3DCDC6087F33E41BACA4084907E3 /* IIBLL-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IIBLL-Info.plist"; sourceTree = "<group>"; };
-		4ED58122EBAE6DE35792D13921149E34 /* IIExchangeIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IIExchangeIBLL.h; sourceTree = "<group>"; };
+		44F7A25707C0BD62ADDA4AC13E5D6929 /* AgoraAudioIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AgoraAudioIBLL.h; sourceTree = "<group>"; };
+		45AC76040BD2A93964D9980F4CB2238C /* BHTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTimeProfiler.h; path = IIBLL/Classes/BeeHive/BHTimeProfiler.h; sourceTree = "<group>"; };
 		54A64D1EE4752D4893EE576DED449DBE /* Pods-IIBLL_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIBLL_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F7E2B2D606D95FA460A4C00A310E284 /* DiscoverIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DiscoverIBLL.h; sourceTree = "<group>"; };
-		63E0AA2DA4AD8D17A33F83A60E9E8285 /* BHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHCommon.h; path = IIBLL/Classes/BeeHive/BHCommon.h; sourceTree = "<group>"; };
-		69FD0EF3AD4D3F0EEB4DA31E3624B6E0 /* BHWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHWatchDog.h; path = IIBLL/Classes/BeeHive/BHWatchDog.h; sourceTree = "<group>"; };
-		739AD574B634652998E23EB72032F321 /* LoginIBLLOC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginIBLLOC.h; sourceTree = "<group>"; };
-		76AEC09706DC81B4B4C57E2C48EB1F4E /* BHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHRouter.m; path = IIBLL/Classes/BeeHive/BHRouter.m; sourceTree = "<group>"; };
-		771CE91F9F6556435E5241318221A5A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		77653D1A3711B32E637B805EB3AFDB65 /* BHContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHContext.h; path = IIBLL/Classes/BeeHive/BHContext.h; sourceTree = "<group>"; };
+		55DCF46400E37CE9E52D1CF716D77FAC /* BHAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAppDelegate.h; path = IIBLL/Classes/BeeHive/BHAppDelegate.h; sourceTree = "<group>"; };
+		57B4AD8EBEA0300E9133AF9FBBCB0B78 /* CloudMineIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudMineIBLL.h; sourceTree = "<group>"; };
+		673B97B82DBCDD426881487BD418BC5D /* BHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHCommon.h; path = IIBLL/Classes/BeeHive/BHCommon.h; sourceTree = "<group>"; };
+		713A552D9C8D477D8E5EF11EAFB3CC42 /* BHTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHTimeProfiler.m; path = IIBLL/Classes/BeeHive/BHTimeProfiler.m; sourceTree = "<group>"; };
+		74FA92BB1256FC42F2DD402D0CC33158 /* IIBLL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IIBLL.modulemap; sourceTree = "<group>"; };
+		76A77116EE0DAF87D6DB98BBB0754399 /* BHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHConfig.h; path = IIBLL/Classes/BeeHive/BHConfig.h; sourceTree = "<group>"; };
 		78FF9DA4651FF34003A327EDCAC25EF4 /* Pods-IIBLL_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIBLL_Example-dummy.m"; sourceTree = "<group>"; };
 		7D480DD0A5EA8893B8A8AC122BD27BD3 /* Pods-IIBLL_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIBLL_Example-umbrella.h"; sourceTree = "<group>"; };
 		7ECF76A0379463CA1B81538C87CDBEA0 /* Pods-IIBLL_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Example-Info.plist"; sourceTree = "<group>"; };
 		836631C179FCAD3AF1010091CBA98ADE /* Pods-IIBLL_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IIBLL_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8592842FE5DB638520E20328D3B446A2 /* IIBLL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIBLL-prefix.pch"; sourceTree = "<group>"; };
-		87E1E2B433F39CB9F788649385E55C9E /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = IIBLL/Classes/BeeHive/BHModuleManager.h; sourceTree = "<group>"; };
-		88C15D94EB1E1859576C0C6B0C7864DD /* BHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHConfig.h; path = IIBLL/Classes/BeeHive/BHConfig.h; sourceTree = "<group>"; };
+		851BB9C7EEBF66E64E7305D6199A61F3 /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = IIBLL/Classes/BeeHive/BHModuleManager.m; sourceTree = "<group>"; };
+		895F0560824C7FBA8665D93549E35E16 /* BHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHRouter.m; path = IIBLL/Classes/BeeHive/BHRouter.m; sourceTree = "<group>"; };
 		8EB34074004DB2E6A97E1CDC10818583 /* Pods-IIBLL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8FE3C9A49BD49D4997CAFAE6AC727520 /* JustModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustModule.swift; path = IIBLL/Classes/IBLL/JustModule.swift; sourceTree = "<group>"; };
 		934A9FE96BBC0993CB6DE4847EEB9F6E /* Pods-IIBLL_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		963891EFEDB6351F991B4D9B3E68E493 /* BHTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTimeProfiler.h; path = IIBLL/Classes/BeeHive/BHTimeProfiler.h; sourceTree = "<group>"; };
-		973887B33185E496666587A468F8FCF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9396A6FEC699D46C04648E10DE970511 /* LoginIBLLOC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginIBLLOC.h; sourceTree = "<group>"; };
+		95A59CB5B8DC329FC89540AF4226BA05 /* IIBLL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIBLL-prefix.pch"; sourceTree = "<group>"; };
+		9AD31A89BA5FE99CD2C3C61D3767B5BD /* BHAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAppDelegate.m; path = IIBLL/Classes/BeeHive/BHAppDelegate.m; sourceTree = "<group>"; };
+		9D255BBA3BF4BDAFC9154478F3BF3787 /* BeeHive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = IIBLL/Classes/BeeHive/BeeHive.bundle; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB8AE9F9EC9FEAAFDC2787B20E9A8B5 /* BeeHive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeHive.h; path = IIBLL/Classes/BeeHive/BeeHive.h; sourceTree = "<group>"; };
 		A11EB346D597568EE883BDB5F6AD93BC /* Pods_IIBLL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIBLL_Example.framework; path = "Pods-IIBLL_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DA54103817133D1F2DB7D3B53FE0B5 /* Pods-IIBLL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A656BEDF52ADC671A14803433B45934E /* IIBLL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IIBLL.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A737F1D5D0138A80318746C8B18BDF91 /* WebEXIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebEXIBLL.h; sourceTree = "<group>"; };
-		A8FB2A7228F2E4B4D744E21918FFCF58 /* BHContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHContext.m; path = IIBLL/Classes/BeeHive/BHContext.m; sourceTree = "<group>"; };
+		A3314F6705D109AC52225C299D940816 /* WorkBenchIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WorkBenchIBLL.h; sourceTree = "<group>"; };
+		A415BEB2D107104398BD70DAFFC20363 /* BHServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceManager.h; path = IIBLL/Classes/BeeHive/BHServiceManager.h; sourceTree = "<group>"; };
+		A541B071A3D369374FD1E97A5F8801F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A63AFE0729971342B5ABCC9704D7A825 /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = IIBLL/Classes/BeeHive/BHServiceManager.m; sourceTree = "<group>"; };
+		A98C898D1F0EE894F06265AF2EA38B2A /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = IIBLL/Classes/BeeHive/BHServiceProtocol.h; sourceTree = "<group>"; };
+		AA362F9BF25D4BDC64878250743C6C54 /* IIExchangeIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IIExchangeIBLL.h; sourceTree = "<group>"; };
 		B0892113440F0E67657847D9CA7C2A05 /* Pods-IIBLL_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIBLL_Tests-dummy.m"; sourceTree = "<group>"; };
 		B14A465F0C36CF55AC63EDDA76EAD09F /* Pods-IIBLL_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B19245EF156877F21E9A7CA67F1B7A88 /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = IIBLL/Classes/BeeHive/BHModuleManager.m; sourceTree = "<group>"; };
+		B7632AB155804DC08ABC912E7854009F /* IIBLL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IIBLL-dummy.m"; sourceTree = "<group>"; };
 		B8B7FC2D95F6E2A92F5AB4D28ADF21D9 /* Pods-IIBLL_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Tests-Info.plist"; sourceTree = "<group>"; };
-		C0F0C9D6686F97486D33254CEF89A73F /* IIBLL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IIBLL.modulemap; sourceTree = "<group>"; };
-		C807935CEA55FC49264F1D374A3E0919 /* BHAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAppDelegate.m; path = IIBLL/Classes/BeeHive/BHAppDelegate.m; sourceTree = "<group>"; };
+		BF7669017A372C3B1790CBC0750B1DEF /* DiscoverIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DiscoverIBLL.h; sourceTree = "<group>"; };
+		C435A87187D25905C1CFD7DE80CC7C06 /* IIBLL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIBLL-umbrella.h"; sourceTree = "<group>"; };
+		CA1B55A5FB936E8C03281DED1DED672E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CAA25D99302E6C1A923EA358EE165CAF /* Pods-IIBLL_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIBLL_Tests.modulemap"; sourceTree = "<group>"; };
+		CABCCA5FDAC4089C8F98F0C80D93F730 /* BeeHive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHive.m; path = IIBLL/Classes/BeeHive/BeeHive.m; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE7757B02B954F4D7B82236CCA0DC01D /* Pods-IIBLL_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIBLL_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE957AD77560AE5778B068F5C410D334 /* Pods-IIBLL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D02C540064A6FB5EB9499BA18951B227 /* BHTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHTimeProfiler.m; path = IIBLL/Classes/BeeHive/BHTimeProfiler.m; sourceTree = "<group>"; };
+		D1C5263109C5FC24012DB9C32949EBB5 /* BHContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHContext.m; path = IIBLL/Classes/BeeHive/BHContext.m; sourceTree = "<group>"; };
 		D585BC5513336A71AC8B71E6D3B40846 /* Pods-IIBLL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D5F453888F8EAB8F9FCB301EFD72430E /* BeeHive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeHive.h; path = IIBLL/Classes/BeeHive/BeeHive.h; sourceTree = "<group>"; };
-		D970E3B1811A033F9172AE1F9FAF976D /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = IIBLL/Classes/BeeHive/BHServiceProtocol.h; sourceTree = "<group>"; };
-		D9FCE716645CF25C73D179AB5E9BABF1 /* BHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHRouter.h; path = IIBLL/Classes/BeeHive/BHRouter.h; sourceTree = "<group>"; };
+		D7A83F6CDBFA994A991A8E90B4B495C1 /* IIBLL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IIBLL.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC50194B46B47D64608FA9678E3FE4CB /* WebEXIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebEXIBLL.h; sourceTree = "<group>"; };
 		E0E43B02C78CB1016B2EE1FDF4428177 /* Pods-IIBLL_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIBLL_Example.modulemap"; sourceTree = "<group>"; };
-		E31146A5C76CBD8AD755FD1629AE1DCD /* BHAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAnnotation.h; path = IIBLL/Classes/BeeHive/BHAnnotation.h; sourceTree = "<group>"; };
-		ECF0196000E2DFB9EFD6AA1B3EAA1F1A /* WorkBenchIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WorkBenchIBLL.h; sourceTree = "<group>"; };
-		F6E6BC404E6958A1C683F51BCD735F27 /* CloudMineIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudMineIBLL.h; sourceTree = "<group>"; };
-		F8053D5A2EC08EE1BC5AEFA33E329F9C /* IIBLL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IIBLL.xcconfig; sourceTree = "<group>"; };
-		FA9FFD614A680A775C1A11A60855A7F3 /* BHServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceManager.h; path = IIBLL/Classes/BeeHive/BHServiceManager.h; sourceTree = "<group>"; };
-		FB5AEB80403334FE78CFF62B4B1C4BAF /* BHWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHWatchDog.m; path = IIBLL/Classes/BeeHive/BHWatchDog.m; sourceTree = "<group>"; };
+		EC05C05DCF17DE5BB37844C554C6247F /* IIBLL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IIBLL.xcconfig; sourceTree = "<group>"; };
+		EE9A78367CFCADCC4D4F0568E2738368 /* BHDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHDefines.h; path = IIBLL/Classes/BeeHive/BHDefines.h; sourceTree = "<group>"; };
+		EECBDB30CACC5FA7C979AA757693FEDE /* BHWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHWatchDog.m; path = IIBLL/Classes/BeeHive/BHWatchDog.m; sourceTree = "<group>"; };
+		F23BA0984A392522898BF4258ABD6DE2 /* BHAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAnnotation.h; path = IIBLL/Classes/BeeHive/BHAnnotation.h; sourceTree = "<group>"; };
+		FEBB1A440DB63F52DF5917FEFBFCADCA /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = IIBLL/Classes/BeeHive/BHModuleManager.h; sourceTree = "<group>"; };
+		FF2F4F75A51DBCA5CA653B00D812E679 /* BHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHConfig.m; path = IIBLL/Classes/BeeHive/BHConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F0FAF309D85B611BBA31F5F164D9FFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				084E367997D4F4A50031D8F2B434D80C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6F95150B4B8D5F755BACEAE5FEA18E5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8385A1FAC4CCBC0E1C75B7BE0A15121C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7092A4B678A48C9941CD431AB0BBF254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CCB4F70000AEC87D8954506541017F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,23 +163,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0851E43B2F2503D28F628103202A900E /* Pod */ = {
+		04778D7021DC1984F11BB6A66502141F /* IBLL */ = {
 			isa = PBXGroup;
 			children = (
-				A656BEDF52ADC671A14803433B45934E /* IIBLL.podspec */,
-				771CE91F9F6556435E5241318221A5A1 /* LICENSE */,
-				973887B33185E496666587A468F8FCF2 /* README.md */,
+				8FE3C9A49BD49D4997CAFAE6AC727520 /* JustModule.swift */,
+				BDF3D08C1D2BF6CB5C763800687685EB /* AgoraAudio */,
+				79C2154AEB1BAAFC91F210F5FD66DC6A /* Discover */,
+				6F750C7B4B3FCA4B0611B51B81F1E2E5 /* Exchange */,
+				1D4E6C8B283F9DDE5451DDF8099A0D67 /* Login */,
+				75BEC9A3A8B164FE36D263CC9319051C /* PersonCenter */,
+				074B1402489087BF0521CC4A5DC3D47B /* WebEX */,
+				A8545887F9AB723EDA7BC537A21FBBFD /* WorkBench */,
 			);
-			name = Pod;
+			name = IBLL;
 			sourceTree = "<group>";
 		};
-		303F87FBFC8016287C2F8BE60621904A /* AgoraAudio */ = {
+		074B1402489087BF0521CC4A5DC3D47B /* WebEX */ = {
 			isa = PBXGroup;
 			children = (
-				040500B538C9214F1606503983319622 /* AgoraAudioIBLL.h */,
+				DC50194B46B47D64608FA9678E3FE4CB /* WebEXIBLL.h */,
 			);
-			name = AgoraAudio;
-			path = IIBLL/Classes/IBLL/AgoraAudio;
+			name = WebEX;
+			path = IIBLL/Classes/IBLL/WebEX;
+			sourceTree = "<group>";
+		};
+		1D4E6C8B283F9DDE5451DDF8099A0D67 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9396A6FEC699D46C04648E10DE970511 /* LoginIBLLOC.h */,
+			);
+			name = Login;
+			path = IIBLL/Classes/IBLL/Login;
 			sourceTree = "<group>";
 		};
 		496C8C92325FEE3F0904ECDDC0FA34AD /* Targets Support Files */ = {
@@ -189,53 +205,62 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4F9A34A6EFEC3769CF16D4ADC08A84C0 /* BeeHive */ = {
+		511E9ADE0FE928105C2C21377F76587D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D5F453888F8EAB8F9FCB301EFD72430E /* BeeHive.h */,
-				3E2EA4AFA35C8D3196BECC5E4DF72C33 /* BeeHive.m */,
-				E31146A5C76CBD8AD755FD1629AE1DCD /* BHAnnotation.h */,
-				2050FC072E66600EE70F4948B849EF14 /* BHAnnotation.m */,
-				2AC87516793B45C6CCC245F17AAA0A5B /* BHAppDelegate.h */,
-				C807935CEA55FC49264F1D374A3E0919 /* BHAppDelegate.m */,
-				63E0AA2DA4AD8D17A33F83A60E9E8285 /* BHCommon.h */,
-				88C15D94EB1E1859576C0C6B0C7864DD /* BHConfig.h */,
-				3919BB2BE83049567B009C21EBDFC031 /* BHConfig.m */,
-				77653D1A3711B32E637B805EB3AFDB65 /* BHContext.h */,
-				A8FB2A7228F2E4B4D744E21918FFCF58 /* BHContext.m */,
-				385EBB426DD8EC0E519859B2760BD465 /* BHDefines.h */,
-				87E1E2B433F39CB9F788649385E55C9E /* BHModuleManager.h */,
-				B19245EF156877F21E9A7CA67F1B7A88 /* BHModuleManager.m */,
-				084AF9ABF366BD73A6EBCAE20E300715 /* BHModuleProtocol.h */,
-				D9FCE716645CF25C73D179AB5E9BABF1 /* BHRouter.h */,
-				76AEC09706DC81B4B4C57E2C48EB1F4E /* BHRouter.m */,
-				FA9FFD614A680A775C1A11A60855A7F3 /* BHServiceManager.h */,
-				1F82FBBA1E3E5ED4D1D6909D6C4B408D /* BHServiceManager.m */,
-				D970E3B1811A033F9172AE1F9FAF976D /* BHServiceProtocol.h */,
-				963891EFEDB6351F991B4D9B3E68E493 /* BHTimeProfiler.h */,
-				D02C540064A6FB5EB9499BA18951B227 /* BHTimeProfiler.m */,
-				69FD0EF3AD4D3F0EEB4DA31E3624B6E0 /* BHWatchDog.h */,
-				FB5AEB80403334FE78CFF62B4B1C4BAF /* BHWatchDog.m */,
-				6F1E3FB00CDCF9E0A0A3029BE5AD86C9 /* Resources */,
-			);
-			name = BeeHive;
-			sourceTree = "<group>";
-		};
-		6F1E3FB00CDCF9E0A0A3029BE5AD86C9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				25C531746DE7F933A9D1351C60281F3F /* BeeHive.bundle */,
+				9D255BBA3BF4BDAFC9154478F3BF3787 /* BeeHive.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		708B9D020EBD592606C41A13CA95394E /* Discover */ = {
+		6F750C7B4B3FCA4B0611B51B81F1E2E5 /* Exchange */ = {
 			isa = PBXGroup;
 			children = (
-				5F7E2B2D606D95FA460A4C00A310E284 /* DiscoverIBLL.h */,
+				AA362F9BF25D4BDC64878250743C6C54 /* IIExchangeIBLL.h */,
 			);
-			name = Discover;
-			path = IIBLL/Classes/IBLL/Discover;
+			name = Exchange;
+			path = IIBLL/Classes/IBLL/Exchange;
+			sourceTree = "<group>";
+		};
+		726FE90D8BB1BD742DD1A76700FEB9B5 /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				9FB8AE9F9EC9FEAAFDC2787B20E9A8B5 /* BeeHive.h */,
+				CABCCA5FDAC4089C8F98F0C80D93F730 /* BeeHive.m */,
+				F23BA0984A392522898BF4258ABD6DE2 /* BHAnnotation.h */,
+				3E60BC4FAB03DFF39680B74F10DD04AD /* BHAnnotation.m */,
+				55DCF46400E37CE9E52D1CF716D77FAC /* BHAppDelegate.h */,
+				9AD31A89BA5FE99CD2C3C61D3767B5BD /* BHAppDelegate.m */,
+				673B97B82DBCDD426881487BD418BC5D /* BHCommon.h */,
+				76A77116EE0DAF87D6DB98BBB0754399 /* BHConfig.h */,
+				FF2F4F75A51DBCA5CA653B00D812E679 /* BHConfig.m */,
+				1CD128599A1DAC1891EC2E2084E02382 /* BHContext.h */,
+				D1C5263109C5FC24012DB9C32949EBB5 /* BHContext.m */,
+				EE9A78367CFCADCC4D4F0568E2738368 /* BHDefines.h */,
+				FEBB1A440DB63F52DF5917FEFBFCADCA /* BHModuleManager.h */,
+				851BB9C7EEBF66E64E7305D6199A61F3 /* BHModuleManager.m */,
+				2431CC9E8BFAA9E980CE40ED8E875786 /* BHModuleProtocol.h */,
+				38A51A1B4D4CB67CD4DF63C2FE2A32D4 /* BHRouter.h */,
+				895F0560824C7FBA8665D93549E35E16 /* BHRouter.m */,
+				A415BEB2D107104398BD70DAFFC20363 /* BHServiceManager.h */,
+				A63AFE0729971342B5ABCC9704D7A825 /* BHServiceManager.m */,
+				A98C898D1F0EE894F06265AF2EA38B2A /* BHServiceProtocol.h */,
+				45AC76040BD2A93964D9980F4CB2238C /* BHTimeProfiler.h */,
+				713A552D9C8D477D8E5EF11EAFB3CC42 /* BHTimeProfiler.m */,
+				3583E578B19905853DCEBFC3A3527BDD /* BHWatchDog.h */,
+				EECBDB30CACC5FA7C979AA757693FEDE /* BHWatchDog.m */,
+				511E9ADE0FE928105C2C21377F76587D /* Resources */,
+			);
+			name = BeeHive;
+			sourceTree = "<group>";
+		};
+		75BEC9A3A8B164FE36D263CC9319051C /* PersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				57B4AD8EBEA0300E9133AF9FBBCB0B78 /* CloudMineIBLL.h */,
+			);
+			name = PersonCenter;
+			path = IIBLL/Classes/IBLL/PersonCenter;
 			sourceTree = "<group>";
 		};
 		77500735FD175F3EAF8EAA7F12C7C487 /* Pods-IIBLL_Tests */ = {
@@ -254,27 +279,49 @@
 			path = "Target Support Files/Pods-IIBLL_Tests";
 			sourceTree = "<group>";
 		};
-		792877718EFD2C360BCC1E35BAECCCA6 /* Support Files */ = {
+		79C2154AEB1BAAFC91F210F5FD66DC6A /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				C0F0C9D6686F97486D33254CEF89A73F /* IIBLL.modulemap */,
-				F8053D5A2EC08EE1BC5AEFA33E329F9C /* IIBLL.xcconfig */,
-				1113C05290B1EDA2C165BED90B1D9C55 /* IIBLL-dummy.m */,
-				489A3DCDC6087F33E41BACA4084907E3 /* IIBLL-Info.plist */,
-				8592842FE5DB638520E20328D3B446A2 /* IIBLL-prefix.pch */,
-				1B7DC8C852540A466CF4F4DBEDF5ECA9 /* IIBLL-umbrella.h */,
+				BF7669017A372C3B1790CBC0750B1DEF /* DiscoverIBLL.h */,
+			);
+			name = Discover;
+			path = IIBLL/Classes/IBLL/Discover;
+			sourceTree = "<group>";
+		};
+		7C98B523A4AF694F9561FE7F3B437DEF /* IIBLL */ = {
+			isa = PBXGroup;
+			children = (
+				726FE90D8BB1BD742DD1A76700FEB9B5 /* BeeHive */,
+				04778D7021DC1984F11BB6A66502141F /* IBLL */,
+				92A55D76506278EB7D00BD6419D4CC37 /* Pod */,
+				95A9C972448069EFB8809C20519FD2D5 /* Support Files */,
+			);
+			name = IIBLL;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		92A55D76506278EB7D00BD6419D4CC37 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D7A83F6CDBFA994A991A8E90B4B495C1 /* IIBLL.podspec */,
+				A541B071A3D369374FD1E97A5F8801F3 /* LICENSE */,
+				CA1B55A5FB936E8C03281DED1DED672E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		95A9C972448069EFB8809C20519FD2D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74FA92BB1256FC42F2DD402D0CC33158 /* IIBLL.modulemap */,
+				EC05C05DCF17DE5BB37844C554C6247F /* IIBLL.xcconfig */,
+				B7632AB155804DC08ABC912E7854009F /* IIBLL-dummy.m */,
+				38652C756AB306826D0AF619A87717AF /* IIBLL-Info.plist */,
+				95A59CB5B8DC329FC89540AF4226BA05 /* IIBLL-prefix.pch */,
+				C435A87187D25905C1CFD7DE80CC7C06 /* IIBLL-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/IIBLL";
-			sourceTree = "<group>";
-		};
-		793BCB3C6E4854EBBA9A89364512015C /* PersonCenter */ = {
-			isa = PBXGroup;
-			children = (
-				F6E6BC404E6958A1C683F51BCD735F27 /* CloudMineIBLL.h */,
-			);
-			name = PersonCenter;
-			path = IIBLL/Classes/IBLL/PersonCenter;
 			sourceTree = "<group>";
 		};
 		97B28C62A9E3DE650B55A25E2680AC1C /* Products */ = {
@@ -295,48 +342,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A136F92828CB46442ED73F3808B61227 /* IBLL */ = {
+		A8545887F9AB723EDA7BC537A21FBBFD /* WorkBench */ = {
 			isa = PBXGroup;
 			children = (
-				303F87FBFC8016287C2F8BE60621904A /* AgoraAudio */,
-				708B9D020EBD592606C41A13CA95394E /* Discover */,
-				E4701DAD72E84CC5DF79C684F0535598 /* Exchange */,
-				E37A373D269E7E0AA00A3F14FE086F88 /* Login */,
-				793BCB3C6E4854EBBA9A89364512015C /* PersonCenter */,
-				C90AC2519B2B9920455001AD7D340176 /* WebEX */,
-				B02C2C1DB8DE8BBEBAD970A3456BD404 /* WorkBench */,
-			);
-			name = IBLL;
-			sourceTree = "<group>";
-		};
-		B02C2C1DB8DE8BBEBAD970A3456BD404 /* WorkBench */ = {
-			isa = PBXGroup;
-			children = (
-				ECF0196000E2DFB9EFD6AA1B3EAA1F1A /* WorkBenchIBLL.h */,
+				A3314F6705D109AC52225C299D940816 /* WorkBenchIBLL.h */,
 			);
 			name = WorkBench;
 			path = IIBLL/Classes/IBLL/WorkBench;
 			sourceTree = "<group>";
 		};
-		BB46001FF82BA91457D19E0695A1155B /* IIBLL */ = {
+		BDF3D08C1D2BF6CB5C763800687685EB /* AgoraAudio */ = {
 			isa = PBXGroup;
 			children = (
-				4F9A34A6EFEC3769CF16D4ADC08A84C0 /* BeeHive */,
-				A136F92828CB46442ED73F3808B61227 /* IBLL */,
-				0851E43B2F2503D28F628103202A900E /* Pod */,
-				792877718EFD2C360BCC1E35BAECCCA6 /* Support Files */,
+				44F7A25707C0BD62ADDA4AC13E5D6929 /* AgoraAudioIBLL.h */,
 			);
-			name = IIBLL;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C90AC2519B2B9920455001AD7D340176 /* WebEX */ = {
-			isa = PBXGroup;
-			children = (
-				A737F1D5D0138A80318746C8B18BDF91 /* WebEXIBLL.h */,
-			);
-			name = WebEX;
-			path = IIBLL/Classes/IBLL/WebEX;
+			name = AgoraAudio;
+			path = IIBLL/Classes/IBLL/AgoraAudio;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -356,24 +377,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E37A373D269E7E0AA00A3F14FE086F88 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				739AD574B634652998E23EB72032F321 /* LoginIBLLOC.h */,
-			);
-			name = Login;
-			path = IIBLL/Classes/IBLL/Login;
-			sourceTree = "<group>";
-		};
-		E4701DAD72E84CC5DF79C684F0535598 /* Exchange */ = {
-			isa = PBXGroup;
-			children = (
-				4ED58122EBAE6DE35792D13921149E34 /* IIExchangeIBLL.h */,
-			);
-			name = Exchange;
-			path = IIBLL/Classes/IBLL/Exchange;
 			sourceTree = "<group>";
 		};
 		F01DB22D597E3EC9D38DB399E0017616 /* Pods-IIBLL_Example */ = {
@@ -396,7 +399,7 @@
 		F7293FFD78B0BA1EF286D319124230B8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BB46001FF82BA91457D19E0695A1155B /* IIBLL */,
+				7C98B523A4AF694F9561FE7F3B437DEF /* IIBLL */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -412,35 +415,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D78C343AAEA935B1F3057CE1EABF95E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5217D7737631832A0B7633201CD60D61 /* AgoraAudioIBLL.h in Headers */,
-				82C0540C2B31A035D0229DF8198B999D /* BeeHive.h in Headers */,
-				7FF64FD4B1EA147C9DE6AB5A66F0F077 /* BHAnnotation.h in Headers */,
-				B30347965B5D1E65FFDEEB8F0EA5BF81 /* BHAppDelegate.h in Headers */,
-				3BF451A4D0CF3D963A8F4A43626E2958 /* BHCommon.h in Headers */,
-				B78930CF92D35BAB15CACEC0CA6BD967 /* BHConfig.h in Headers */,
-				56CAE79B8E21E1C45BA8BD5E501908F2 /* BHContext.h in Headers */,
-				6C6D8D4622C09DA356BF1CE549BC85C0 /* BHDefines.h in Headers */,
-				092D6A4FC66AAF062B77EE59A553AD63 /* BHModuleManager.h in Headers */,
-				32891A87C863DCA10A40EDFE87CFD289 /* BHModuleProtocol.h in Headers */,
-				7F403D2772D5A7CFEA8E6502A4F95CEF /* BHRouter.h in Headers */,
-				C340897E7578800795290860D3051F73 /* BHServiceManager.h in Headers */,
-				9212AEFEA7460800BB479A48F9FDBD5B /* BHServiceProtocol.h in Headers */,
-				A8EAC02FD12F665790B92292B1124DDC /* BHTimeProfiler.h in Headers */,
-				7B7EE440BAA4BD6F339EF1E94C8A8631 /* BHWatchDog.h in Headers */,
-				B899D29E8B06AB64A7430500692837E6 /* CloudMineIBLL.h in Headers */,
-				0E71F5C44C794F602C7A6831D3E130D3 /* DiscoverIBLL.h in Headers */,
-				C956DC3BC25684823D84F366F2B91735 /* IIBLL-umbrella.h in Headers */,
-				1B9BAD1661FE9842F1C0533D9C5B4389 /* IIExchangeIBLL.h in Headers */,
-				FE0BBE89908DE925E3557C444047931A /* LoginIBLLOC.h in Headers */,
-				ED13F557C645ED990E5866E5A0E48918 /* WebEXIBLL.h in Headers */,
-				BA998925B7FD9A99BB460842C29607D4 /* WorkBenchIBLL.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CCA6BD858629EFDC180FEDE2D96AF20C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,9 +423,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F44747B39BC63431282DD1DC04CAB488 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EE4215C6AA18FE60F39B86A5797DF4 /* AgoraAudioIBLL.h in Headers */,
+				C0C04863200B2D4AAD866FB7B41CF7A0 /* BeeHive.h in Headers */,
+				9D2B6E783FF7E8499935F29968FBC8A8 /* BHAnnotation.h in Headers */,
+				F5625DE37A45DE1A164D0565A24A1CBA /* BHAppDelegate.h in Headers */,
+				272DF4692827B34E561B2681F649CEEB /* BHCommon.h in Headers */,
+				459E79C5F961F05AE400F17DB74BB2D0 /* BHConfig.h in Headers */,
+				6B9220287EFE5F17BF9C76D0A5928C5E /* BHContext.h in Headers */,
+				092BD3724A8527A9E042F0171C5FAC52 /* BHDefines.h in Headers */,
+				028840561BDC3BF473DC79E160411452 /* BHModuleManager.h in Headers */,
+				0EC228198CAFA82952EC1CF9F568CD42 /* BHModuleProtocol.h in Headers */,
+				5DECF5BA2AFD041A2002E18632FBEFD3 /* BHRouter.h in Headers */,
+				EEB7AEF19567FD70731C3A80861BB4B2 /* BHServiceManager.h in Headers */,
+				618494433C65AFF8CA70DF2D1100C250 /* BHServiceProtocol.h in Headers */,
+				238E26818956463225B559C9A17222BD /* BHTimeProfiler.h in Headers */,
+				99D53C7B476B757F9735C7507B684E52 /* BHWatchDog.h in Headers */,
+				F6E4C996EDBF8A018CD63CE2660578E2 /* CloudMineIBLL.h in Headers */,
+				BEA19275E64B313269779C00AB0E07A3 /* DiscoverIBLL.h in Headers */,
+				BA1B88C7F04B335F5BB60CA76A57D84C /* IIBLL-umbrella.h in Headers */,
+				A89C61F97ACF5A7CE214EEC935BAA866 /* IIExchangeIBLL.h in Headers */,
+				F84F60588C033FD3B183827AE0AEC8EC /* LoginIBLLOC.h in Headers */,
+				7F2E588D41AE8FE9BA19C4CB83C517E3 /* WebEXIBLL.h in Headers */,
+				28496F2BBA0686E79A305EE109F77C9B /* WorkBenchIBLL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		15DAE373B5ED628BD6B0C7844D431C99 /* IIBLL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4489704A8A01548044A125FDD9DA6F8A /* Build configuration list for PBXNativeTarget "IIBLL" */;
+			buildPhases = (
+				F44747B39BC63431282DD1DC04CAB488 /* Headers */,
+				04F5EADCCDA1ABB09D6A1B5397B46BBF /* Sources */,
+				7092A4B678A48C9941CD431AB0BBF254 /* Frameworks */,
+				0ED5C9A44EE4639CB7BC4A3AD863878C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IIBLL;
+			productName = IIBLL;
+			productReference = 4425F597F1848F15E70DA1C21413227C /* IIBLL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2B853C2CA5F8A0C03828F9CDD217723D /* Pods-IIBLL_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBB38437D491DC5C600F520E68351029 /* Build configuration list for PBXNativeTarget "Pods-IIBLL_Tests" */;
@@ -490,24 +511,6 @@
 			productReference = A11EB346D597568EE883BDB5F6AD93BC /* Pods_IIBLL_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6E8E78B8778E5B991976CEDA3098F77C /* IIBLL */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D73F7C3B3EB7B8B43896F7758A9C9493 /* Build configuration list for PBXNativeTarget "IIBLL" */;
-			buildPhases = (
-				5D78C343AAEA935B1F3057CE1EABF95E /* Headers */,
-				C43634D21CC8F9658DCFABC0AE019AD1 /* Sources */,
-				6F0FAF309D85B611BBA31F5F164D9FFF /* Frameworks */,
-				EC1A5603E039DA9F77D86CF426134D4A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = IIBLL;
-			productName = IIBLL;
-			productReference = 4425F597F1848F15E70DA1C21413227C /* IIBLL.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -529,7 +532,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E8E78B8778E5B991976CEDA3098F77C /* IIBLL */,
+				15DAE373B5ED628BD6B0C7844D431C99 /* IIBLL */,
 				585F631E8906FB25678E57B457A1F2B3 /* Pods-IIBLL_Example */,
 				2B853C2CA5F8A0C03828F9CDD217723D /* Pods-IIBLL_Tests */,
 			);
@@ -544,6 +547,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0ED5C9A44EE4639CB7BC4A3AD863878C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D382F1FBCAACB3F4876565485335C9 /* BeeHive.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		141E2DF8B2262463617B83B52855ECAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -551,40 +562,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC1A5603E039DA9F77D86CF426134D4A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				254060DF18DB4A4662CBA89499A87389 /* BeeHive.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04F5EADCCDA1ABB09D6A1B5397B46BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CBD253619EDFC7156A30104A059856 /* BeeHive.m in Sources */,
+				56E92AD96AE9BF968E49D624C05CB3F1 /* BHAnnotation.m in Sources */,
+				952872F18FB2FF677EFD69A505DA4F57 /* BHAppDelegate.m in Sources */,
+				1AF6664A53B63FA268D7D9CC0315E3C4 /* BHConfig.m in Sources */,
+				B7D34B1B1952AE0214998BB336E4153B /* BHContext.m in Sources */,
+				340A1AF172AC7D6A3AEAE4061A01841A /* BHModuleManager.m in Sources */,
+				6B8C12AB030300A6764F5599A7B830DF /* BHRouter.m in Sources */,
+				6C3896CE2432972F4B909041FDCFB2A3 /* BHServiceManager.m in Sources */,
+				CE85D40AADDBF3317A2741A243AAAE3E /* BHTimeProfiler.m in Sources */,
+				71B88C40FDA09E11BF909727F40C009B /* BHWatchDog.m in Sources */,
+				187CBEE2CB502481BAEA3FAB53DF0BDD /* IIBLL-dummy.m in Sources */,
+				C126EA8740FFBBBA41C25240CECC98ED /* JustModule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		280E52CF858B1AB12FEA05199EB401A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				99DCE1ABD0320300614CC25858C3870B /* Pods-IIBLL_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C43634D21CC8F9658DCFABC0AE019AD1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				469FEB309AA497E3D4BCF73461451288 /* BeeHive.m in Sources */,
-				B200A172CACF8A2F555FB958630A5F93 /* BHAnnotation.m in Sources */,
-				0486B37543E4D84D60A3905C14129DCF /* BHAppDelegate.m in Sources */,
-				0A0E344B31D834F5D754FD4D3F5854FD /* BHConfig.m in Sources */,
-				F6025DC4285C36F5875D1881D8047523 /* BHContext.m in Sources */,
-				14C4061D97A98F1575846911230729F0 /* BHModuleManager.m in Sources */,
-				DED1BC099A6A49F1E44C897A56277EC4 /* BHRouter.m in Sources */,
-				E40794C5B36721C35B173E64FF077FA7 /* BHServiceManager.m in Sources */,
-				63D7B578255564E433422AACA65C145C /* BHTimeProfiler.m in Sources */,
-				79ED1BA0D41C54F3EF89EE6E3B913F93 /* BHWatchDog.m in Sources */,
-				B9F004520949113EEE880A2332084ED8 /* IIBLL-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +606,7 @@
 		687BC2658F841279FD32A66AD6CE274A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IIBLL;
-			target = 6E8E78B8778E5B991976CEDA3098F77C /* IIBLL */;
+			target = 15DAE373B5ED628BD6B0C7844D431C99 /* IIBLL */;
 			targetProxy = F8626821644392054B74FF0975735192 /* PBXContainerItemProxy */;
 		};
 		F2A9F33AA84DBB249A903BB0F053FED2 /* PBXTargetDependency */ = {
@@ -680,37 +684,6 @@
 			};
 			name = Debug;
 		};
-		2F4FE7BA105254C6961528E8CC3C91E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8053D5A2EC08EE1BC5AEFA33E329F9C /* IIBLL.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IIBLL/IIBLL-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IIBLL/IIBLL-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IIBLL/IIBLL.modulemap";
-				PRODUCT_MODULE_NAME = IIBLL;
-				PRODUCT_NAME = IIBLL;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		333382EDF2DD2187D947C319D049E748 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EB34074004DB2E6A97E1CDC10818583 /* Pods-IIBLL_Tests.release.xcconfig */;
@@ -744,6 +717,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5176AC1F87B268A4F317D7BDF3DDA5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC05C05DCF17DE5BB37844C554C6247F /* IIBLL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IIBLL/IIBLL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IIBLL/IIBLL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IIBLL/IIBLL.modulemap";
+				PRODUCT_MODULE_NAME = IIBLL;
+				PRODUCT_NAME = IIBLL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60CB49C81E606064264AA89BF82CDDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC05C05DCF17DE5BB37844C554C6247F /* IIBLL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IIBLL/IIBLL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IIBLL/IIBLL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IIBLL/IIBLL.modulemap";
+				PRODUCT_MODULE_NAME = IIBLL;
+				PRODUCT_NAME = IIBLL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -843,38 +879,6 @@
 			};
 			name = Release;
 		};
-		CA45FED61B3E1A524D31F6B59AB2CC65 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8053D5A2EC08EE1BC5AEFA33E329F9C /* IIBLL.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IIBLL/IIBLL-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IIBLL/IIBLL-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IIBLL/IIBLL.modulemap";
-				PRODUCT_MODULE_NAME = IIBLL;
-				PRODUCT_NAME = IIBLL;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -938,6 +942,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4489704A8A01548044A125FDD9DA6F8A /* Build configuration list for PBXNativeTarget "IIBLL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CB49C81E606064264AA89BF82CDDB6 /* Debug */,
+				5176AC1F87B268A4F317D7BDF3DDA5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -952,15 +965,6 @@
 			buildConfigurations = (
 				11C4AD05A61CDE0F2F249CFC25717A48 /* Debug */,
 				333382EDF2DD2187D947C319D049E748 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D73F7C3B3EB7B8B43896F7758A9C9493 /* Build configuration list for PBXNativeTarget "IIBLL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F4FE7BA105254C6961528E8CC3C91E1 /* Debug */,
-				CA45FED61B3E1A524D31F6B59AB2CC65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

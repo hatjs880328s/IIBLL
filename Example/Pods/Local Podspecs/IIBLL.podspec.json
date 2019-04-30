@@ -1,6 +1,6 @@
 {
   "name": "IIBLL",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "IIIBLL - INTERFASE & PROTOCOL",
   "description": "IIIBLL:\n存储了所有业务模块的解耦接口\n引入了BeeHive\nIIIBLL - INTERFASE & PROTOCOL",
   "homepage": "https://github.com/hatjs880328s/IIBLL",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hatjs880328s/IIBLL.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "8.0"
