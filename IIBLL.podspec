@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIBLL'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'IIIBLL - INTERFASE & PROTOCOL'
 
 # This description is used to generate tags and improve search results.
