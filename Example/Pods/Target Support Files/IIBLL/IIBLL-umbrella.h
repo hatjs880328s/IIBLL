@@ -27,6 +27,7 @@
 #import "AgoraAudioIBLL.h"
 #import "DiscoverIBLL.h"
 #import "IIExchangeIBLL.h"
+#import "IIsuprIBLL.h"
 #import "LoginIBLLOC.h"
 #import "CloudMineIBLL.h"
 #import "WebEXIBLL.h"
