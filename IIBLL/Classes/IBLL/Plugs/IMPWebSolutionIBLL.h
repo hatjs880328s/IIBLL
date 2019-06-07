@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "IMPWebSolutionDelegate.h"
+#import "BeeHive.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
