@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIBLL'
-  s.version          = '0.2.12'
+  s.version          = '0.2.13'
   s.summary          = 'IIIBLL - INTERFASE & PROTOCOL'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
   # s.source_files = 'IIBLL/Classes/**/*'
   # s.resource = 'IIBLL/Classes/BeeHive/BeeHive.bundle'
-  # s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.subspec 'BeeHive' do |ss|
       ss.source_files = 'IIBLL/Classes/BeeHive/*.{h,m}'
