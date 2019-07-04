@@ -59,6 +59,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^Handler)(UIViewController * con);
 
+typedef void (^LoginHandler)(bool result);
+
 ///// 邮件功能模块对外暴露的接口
 @protocol IIExchangeIBLL <BHServiceProtocol>
 
@@ -69,6 +71,9 @@ typedef void (^Handler)(UIViewController * con);
 
 /// 清除所有缓存
 - (void)removeAllCache;
+
+/// 登陆exchange账号 - 返回nil 则失败，非nil则成功
+- (void)loginExchange:(LoginHandler)result;
 
 @end
 
