@@ -1,12 +1,12 @@
 //
 //  *******************************************
-//  
+//
 //  IIExchanageIBLL.h
 //  impcloud_dev
 //
 //  Created by Noah_Shan on 2019/4/29.
 //  Copyright © 2018 Inpur. All rights reserved.
-//  
+//
 //  *******************************************
 //
 
@@ -48,7 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
  附件分emaild-folder / attachmentid-folder/ 多级目录存储
  5.多邮件账户
  目前登陆云+的账户可以添加多个邮件账号，在数据库中存储的有whose字段
- 目前获取的用户信息是当前登陆云+账号的所有邮件账户的第一个
+ 目前获取的用户信息是当前登陆云+账号的所b有邮件账户的第一个
  清除缓存时，将所有信息删除包含所有账户
  6.证书处理
  目前是按照登陆云+用户的id存储
@@ -74,6 +74,9 @@ typedef void (^LoginHandler)(bool result);
 
 /// 登陆exchange账号 - 返回nil 则失败，非nil则成功
 - (void)loginExchange:(LoginHandler)result;
+
+/// 校验登录信息是否还有效（在有登录信息的前提下）
+- (void)validateLoginInfoInvalid:(LoginHandler)result;
 
 @end
 
