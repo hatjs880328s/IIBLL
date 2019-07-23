@@ -78,6 +78,9 @@ typedef void (^LoginHandler)(bool result);
 /// 校验登录信息是否还有效（在有登录信息的前提下）
 - (void)validateLoginInfoInvalid:(LoginHandler)result;
 
+/// 获取用户的用户名 & 密码信息 eg.["shanwzh@inspur.com": "123456789"]
+- (NSDictionary *)getExchangeAccountInfo;
+
 @end
 
 NS_ASSUME_NONNULL_END
