@@ -78,8 +78,11 @@ typedef void (^LoginHandler)(bool result);
 /// 校验登录信息是否还有效（在有登录信息的前提下）
 - (void)validateLoginInfoInvalid:(LoginHandler)result;
 
-/// 获取用户的用户名 & 密码信息 eg.["shanwzh@inspur.com": "123456789"]
+/// 获取用户的用户名 & 密码信息 ["shanwzh@inspur.com": "123456789"]
 - (NSDictionary *)getExchangeAccountInfo;
+
+/// 返回exchange用户名密码 key：x-ews-auth value： base64(邮箱:加密之后的密码)
+- (NSDictionary *)getCustomHeaderInfo;
 
 @end
 

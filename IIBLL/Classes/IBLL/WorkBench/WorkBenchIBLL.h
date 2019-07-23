@@ -28,6 +28,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 判断是否开启了Exchange
 - (BOOL)ifExchangeIsOpen;
 
+/// 前后台切换时获取basic数据源
+- (void)enterBackBasicInfo;
+
 @end
 
 NS_ASSUME_NONNULL_END
