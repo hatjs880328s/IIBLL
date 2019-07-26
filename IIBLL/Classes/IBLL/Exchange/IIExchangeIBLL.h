@@ -84,6 +84,12 @@ typedef void (^LoginHandler)(bool result);
 /// 返回exchange用户名密码 key：x-ews-auth value： base64(邮箱:加密之后的密码)
 - (NSDictionary *)getCustomHeaderInfo;
 
+// 获取所有账号信息
+- (NSArray *)getALLEmailAddress;
+
+/// 根据某一个账号id获取对象信息
+- (NSDictionary *)getOneAccountInfo:(NSString *)ID ;
+
 @end
 
 NS_ASSUME_NONNULL_END
