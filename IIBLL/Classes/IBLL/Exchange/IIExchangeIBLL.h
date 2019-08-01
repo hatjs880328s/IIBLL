@@ -59,7 +59,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^Handler)(UIViewController * con);
 
-typedef void (^LoginHandler)(bool result);
+typedef void (^LoginWithEmailHandler)(bool result, NSString * email);
 
 ///// 邮件功能模块对外暴露的接口
 @protocol IIExchangeIBLL <BHServiceProtocol>
@@ -73,10 +73,7 @@ typedef void (^LoginHandler)(bool result);
 - (void)removeAllCache;
 
 /// 登陆exchange账号 - 返回nil 则失败，非nil则成功
-- (void)loginExchange:(LoginHandler)result;
-
-/// 校验登录信息是否还有效（在有登录信息的前提下）
-- (void)validateLoginInfoInvalid:(LoginHandler)result;
+- (void)loginExchange:(LoginWithEmailHandler)result;
 
 /// 获取用户的用户名 & 密码信息 ["shanwzh@inspur.com": "123456789"]
 - (NSDictionary *)getExchangeAccountInfo;
@@ -90,6 +87,10 @@ typedef void (^LoginHandler)(bool result);
 /// 根据某一个账号id获取对象信息
 - (NSDictionary *)getOneAccountInfo:(NSString *)ID ;
 
+// 根据自定义头中的value获取邮箱地址
+- (NSString *)decryptHeaderInfo:(NSString *)accoundAndPwdInfos ;
+
 @end
 
 NS_ASSUME_NONNULL_END
+
