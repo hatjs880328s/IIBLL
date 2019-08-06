@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)bll_CameraService_resetSuccessFunctionName;
 
 ///PhotoService-浏览图片
-- (void)bll_PhotoService_viewImage;
+- (void)bll_PhotoService_viewImage:(UIViewController *)vc;
 
 ///PhotoService-拍照展示
 - (void)bll_PhotoService_takePhotoAndUpload;
