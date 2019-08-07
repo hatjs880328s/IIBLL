@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)bll_CameraService_getPicture:(NSDictionary *)jsonDict params:(NSDictionary*)params currentView:(UIView *)currentWebView currentWindow:(UIViewController *)currentWindow jsCallBackDelegate:(id<IMPWebSolutionDelegate>)jsCallBackDelegate;
 
 ///CameraService-打开相机
-- (UIImagePickerController *)bll_CameraService_displayCamera:(NSDictionary *)jsonDict currentView:(UIView *)currentWebView;
+- (void)bll_CameraService_displayCamera:(NSDictionary *)jsonDict currentView:(UIView *)currentWebView currentVC:(UIViewController *)currentVC;
 
 ///CameraService-清除successFunction
 - (void)bll_CameraService_resetSuccessFunctionName;
