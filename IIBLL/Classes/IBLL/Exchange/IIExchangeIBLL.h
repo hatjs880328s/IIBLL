@@ -72,19 +72,19 @@ typedef void (^LoginWithEmailHandler)(bool result, NSString * email);
 /// 清除所有缓存
 - (void)removeAllCache;
 
-/// 登陆exchange账号 - 返回nil 则失败，非nil则成功
+/// 第三方使用exchange账号 - 返回是否登陆成功即可
 - (void)loginExchange:(LoginWithEmailHandler)result;
 
-/// 获取用户的用户名 & 密码信息 ["shanwzh@inspur.com": "123456789"]
+/// 获取当前用户登录的第一个用户名密码信息 - 可为nil ["shanwzh@inspur.com": "123456789"]
 - (NSDictionary *)getExchangeAccountInfo;
 
-/// 返回exchange用户名密码 key：x-ews-auth value： base64(邮箱:加密之后的密码)
+/// 获取当前用户的第一个邮箱账号的自定义的header信息 [如果没有信息返回的value是空字符串]
 - (NSDictionary *)getCustomHeaderInfo;
 
-// 获取所有账号信息
+// 获取当前用户登录的所有的邮箱model - IIExcEmailDetailPersonOCModel
 - (NSArray *)getALLEmailAddress;
 
-/// 根据某一个账号id获取对象信息
+/// 根据email - address获取 request - header 信息
 - (NSDictionary *)getOneAccountInfo:(NSString *)ID ;
 
 // 根据自定义头中的value获取邮箱地址
