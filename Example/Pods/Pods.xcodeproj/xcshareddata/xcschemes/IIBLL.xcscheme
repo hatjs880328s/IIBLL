@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F95DBE4BAE06B15F7E44E58D9FB98AF"
+               BlueprintIdentifier = "217226C009207CD721D83DE9D332B6AE"
                BuildableName = "IIBLL.framework"
                BlueprintName = "IIBLL"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F95DBE4BAE06B15F7E44E58D9FB98AF"
+            BlueprintIdentifier = "217226C009207CD721D83DE9D332B6AE"
             BuildableName = "IIBLL.framework"
             BlueprintName = "IIBLL"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F95DBE4BAE06B15F7E44E58D9FB98AF"
+            BlueprintIdentifier = "217226C009207CD721D83DE9D332B6AE"
             BuildableName = "IIBLL.framework"
             BlueprintName = "IIBLL"
             ReferencedContainer = "container:Pods.xcodeproj">
