@@ -15,13 +15,15 @@ NS_ASSUME_NONNULL_BEGIN
 //回调js
 - (void)jsCallBack:(UIView *)webView andParams:(NSString*)params;
 //返回定位经纬度
-- (void)returnToWeb:(NSString *)latitude longitude:(NSString *)longitude;
+- (void)returnToWeb:(NSDictionary *)gpsDic;
+//返回网络类型
+- (void)returnNetworkToWeb:(NSString *)js;
 //返回Json信息
 - (void)jsonCallBackString:(NSString *)jsonStr;
 //文件上传结果
 - (void)uploadFileResult:(BOOL)success;
 //文件下载成功返回路径
-- (void)downloadFileSuccessWithPath:(NSString *)filePath fileName:(NSString *)filename showStr:(NSString *)showStr;
+- (void)downloadFileResult:(BOOL)ifSuccess path:(NSString *)filePath fileName:(NSString *)filename showStr:(NSString *)showStr;
 @end
 
 NS_ASSUME_NONNULL_END

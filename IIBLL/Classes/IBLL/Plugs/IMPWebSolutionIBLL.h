@@ -93,23 +93,48 @@ NS_ASSUME_NONNULL_BEGIN
 ///FileService-文件服务初始化
 - (void)bll_FileService_initData:(NSDictionary *)params currentWebView:(UIView *)webView;
 
-///FileService-上传文件
+///FileService-上传文件 需要先执行"文件服务初始化"方法以传入参数
 - (void)bll_FileService_uploadFileWithDelegate:(id<IMPWebSolutionDelegate>)uploadDelegate;
 
-///FileService-下载文件
-- (void)bll_FileService_downloadfile:(id<IMPWebSolutionDelegate>)delegate;
+///FileService-下载文件 需要先执行"文件服务初始化"方法以传入参数
+- (void)bll_FileService_downloadfile:(id<IMPWebSolutionDelegate>)delegate needOpen:(BOOL)needOpen;
 
-///FileService-选择文件
+///FileService-选择文件 需要先执行"文件服务初始化"方法以传入参数
 - (void)bll_FileService_selectFile:(id<IMPWebSolutionDelegate>)delegate;
 
-///FileService-获取Base64字串
+///FileService-获取Base64字串 需要先执行"文件服务初始化"方法以传入参数
 - (NSString *)bll_FileService_getBase64;
+
+///FileService-写入文件 需要先执行"文件服务初始化"方法以传入参数
+- (NSString *)bll_FileService_writeFile;
+
+///FileService-读取文件 需要先执行"文件服务初始化"方法以传入参数
+- (NSString *)bll_FileService_readFile;
+
+///FileService-枚举列表 需要先执行"文件服务初始化"方法以传入参数
+- (NSDictionary *)bll_FileService_listFile;
+
+///FileService-删除文件 需要先执行"文件服务初始化"方法以传入参数
+- (BOOL)bll_FileService_deleteFile;
+
+///数据库操作-执行SQL
+- (NSString *)bll_SqlService_executeSql:(NSString *)dataBaseName sql:(NSString *)sql success:(BOOL *)success;
 
 ///TelephoneService-拨打电话
 - (void)bll_TelephoneService_call:(NSDictionary*)jsonParams;
 
 ///TelephoneService-直接进入拨打电话
 - (void)bll_TelephoneService_dial:(NSDictionary*)jsonParams;
+
+///获取网络类型
+- (void)bll_NetworkService_getNetWorkTypeWithDelegate:(id<IMPWebSolutionDelegate>)delegate callBackName:(NSString *)name;
+
+//短视频拍摄
+- (void)bll_VideoService_recordVideoWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic callBackName:(NSString *)name;
+
+//短视频播放
+- (void)bll_VideoService_playVideoWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic;
+
 @end
 
 NS_ASSUME_NONNULL_END
