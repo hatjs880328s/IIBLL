@@ -60,6 +60,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///MapService-打开地图应用 返回操作是否成功
 - (BOOL)bll_MapService_doNaviByMapId:(NSString *)mapId destination:(NSString *)destination;
 
+///MapService-高德地图导航
+- (BOOL)bll_MapService_doAutoNavi:(NSDictionary *)dic;
+
 ///GpsService-开启gps
 - (void)bll_GpsService_openGps;
 
@@ -71,6 +74,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///GpsService-获取高德地理位置
 - (void)bll_GpsService_getGDInfoWithDelegate:(id<IMPWebSolutionDelegate>)gpsDelegate;
+
+//经纬度转换
+- (void)bll_GpsService_getAddressWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic;
 
 ///StaffService-通讯录选人
 - (void)bll_StaffService_selectStaff:(BOOL)isMultiSelect currentWindow:(UIViewController *)currentWindow delegate:(id<IMPWebSolutionDelegate>)delegate;
@@ -126,13 +132,13 @@ NS_ASSUME_NONNULL_BEGIN
 ///TelephoneService-直接进入拨打电话
 - (void)bll_TelephoneService_dial:(NSDictionary*)jsonParams;
 
-///获取网络类型
+///NetworkService-获取网络类型
 - (void)bll_NetworkService_getNetWorkTypeWithDelegate:(id<IMPWebSolutionDelegate>)delegate callBackName:(NSString *)name;
 
-//短视频拍摄
+///VideoService-短视频拍摄
 - (void)bll_VideoService_recordVideoWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic callBackName:(NSString *)name;
 
-//短视频播放
+///VideoService-短视频播放
 - (void)bll_VideoService_playVideoWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic;
 
 @end
