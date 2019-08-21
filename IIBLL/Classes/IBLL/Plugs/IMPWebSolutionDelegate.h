@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)returnToWeb:(nullable NSDictionary *)dic;
 
 ///返回Json信息
-- (void)jsonCallBackString:(NSString *)jsonStr;
+- (void)jsonCallBackString:(nullable NSString *)jsonStr;
 
 ///文件上传结果
 - (void)uploadFileResult:(BOOL)success param:(NSString *)param;

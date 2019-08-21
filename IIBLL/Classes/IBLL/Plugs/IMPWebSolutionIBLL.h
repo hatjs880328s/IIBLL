@@ -136,10 +136,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)bll_NetworkService_getNetWorkTypeWithDelegate:(id<IMPWebSolutionDelegate>)delegate callBackName:(NSString *)name;
 
 ///VideoService-短视频拍摄
-- (void)bll_VideoService_recordVideoWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic callBackName:(NSString *)name;
+- (void)bll_VideoService_recordVideoWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic callBackName:(NSString *)name withVC:(UIViewController *)vc;
 
 ///VideoService-短视频播放
-- (void)bll_VideoService_playVideoWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic;
+- (void)bll_VideoService_playVideoWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic withVC:(UIViewController *)vc;
 
 @end
 
