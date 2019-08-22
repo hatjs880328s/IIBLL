@@ -84,6 +84,9 @@ typedef void (^LoginWithEmailHandler)(bool result, NSString * email);
 // 获取当前用户登录的所有的邮箱model - IIExcEmailDetailPersonOCModel
 - (NSArray *)getALLEmailAddress;
 
+/// 根据企业ID，获取当前企业下所有的邮箱model - IIExcEmailDetailPersonOCModel
+- (NSArray *)getALLEmailAddress: (NSString *) enterpriseID;
+
 /// 根据email - address获取 request - header 信息
 - (NSDictionary *)getOneAccountInfo:(NSString *)ID ;
 
