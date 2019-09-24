@@ -15,12 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// [根据命令-解析-展示音频入口]
 ///
 /// - Parameter uri: uri
-- (void)analyzeCMDAndJumpVw:(NSString *)uri;
+- (void)analyzeCMDAndJumpVw:(NSString *)uri isVideo:(BOOL)video;
 
 /// [根据选择的人的结果展示音频入口]
 ///
 /// - Parameter arr: 人信息数组
-- (void)createChannel:(NSArray *) arr;
+- (void)createChannel:(NSArray *) arr isVideo:(BOOL)video;
 
 /// 有人拒绝或者离开频道指令处理
 ///
