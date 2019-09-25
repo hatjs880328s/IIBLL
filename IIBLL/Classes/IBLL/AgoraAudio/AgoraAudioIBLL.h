@@ -12,15 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol AgoraAudioIBLL <BHServiceProtocol>
 
-/// [根据命令-解析-展示音频入口]
+/// [根据命令-解析-展示音视频入口]
 ///
 /// - Parameters:
 ///   - uri: scheme
-///   - isVideo: 是否是视频
-///   - bizID: 在哪个聊天频道发起的 - 业务频道id
-- (void)analyzeCMDAndJumpVw:(NSString *)uri isVideo:(BOOL)video bizID:(NSString *)bizID;
+- (void)analyzeCMDAndJumpVw:(NSString *)uri;
 
-/// [根据选择的人的结果展示音频入口]
+/// [根据选择的人的结果展示音视频入口]
 ///
 /// - Parameter arr: 人信息数组
 - (void)createChannel:(NSArray *) arr isVideo:(BOOL)video bizID:(NSString *)bizID;
