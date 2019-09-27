@@ -141,17 +141,20 @@ NS_ASSUME_NONNULL_BEGIN
 ///VideoService-短视频播放
 - (void)bll_VideoService_playVideoWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic withVC:(UIViewController *)vc;
 
-//HttpService-Get方法
+///HttpService-Get方法
 - (void)bll_HttpService_getWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic;
 
-//ShareSocialService-分享文字
+///ShareSocialService-分享文字
 - (void)bll_ShareSocialService_shareTextWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic;
 
-//ShareSocialService-分享Url
+///ShareSocialService-分享Url
 - (void)bll_ShareSocialService_shareUrlWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic;
 
-//ShareSocialService-分享图片
+///ShareSocialService-分享图片
 - (void)bll_ShareSocialService_shareImageWithDelegate:(id<IMPWebSolutionDelegate>)delegate param:(NSDictionary *)dic;
+
+///WechatService-微信发票
+- (void)bll_WechatService_getInvoiceWithDelegate:(id<IMPWebSolutionDelegate>)delegate callBackSuccess:(NSString *)callBack_Success callBackFail:(NSString *)callBack_Fail;
 
 @end
 
