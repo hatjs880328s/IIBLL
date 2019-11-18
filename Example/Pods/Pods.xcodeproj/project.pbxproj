@@ -50,6 +50,8 @@
 		C97DF727FF1C0259BB4C6672008655C3 /* IMPWebSolutionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 023158B472FDCCD0FF9917DEEBAACC5B /* IMPWebSolutionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D20448474F188BD98FC447FDBCF55FE7 /* BHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 683958730B1A73D4EECEDC8462BBB0D4 /* BHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DABEA42B6645A5D3A1163F9A875E8F97 /* AgoraAudioIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = BB7AFFF941635CD883E13F9FE2C2336A /* AgoraAudioIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB54DF52382824D0041D2CA /* MessageIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB54DF22382824D0041D2CA /* MessageIBLL.h */; };
+		DDB54DF62382824D0041D2CA /* ShareIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB54DF42382824D0041D2CA /* ShareIBLL.h */; };
 		E55465AF9E3A9C2DAACD30F1E0B0A6EA /* PhoneBookIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F8A76E35D21757208DBCAC6B6CB667 /* PhoneBookIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6B26A3C00D7A5F8DC7C202F23FCCA26 /* DiscoverIBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4880C4939A570C48451F5FCBC74D7120 /* DiscoverIBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E742C63805C7D17981435DC2F1678296 /* Pods-IIBLL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D068D574C39960DD8B28D60D9F570AD1 /* Pods-IIBLL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,7 +81,7 @@
 /* Begin PBXFileReference section */
 		023158B472FDCCD0FF9917DEEBAACC5B /* IMPWebSolutionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMPWebSolutionDelegate.h; sourceTree = "<group>"; };
 		0BEE4EA03D6AB847EA39962FECFDA5F5 /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = IIBLL/Classes/BeeHive/BHModuleManager.h; sourceTree = "<group>"; };
-		0E29986910B9E9B5EE7A66D5C4DE6C0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0E29986910B9E9B5EE7A66D5C4DE6C0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0E97BD12D5C9C3599CBC3D8859504790 /* WorkBenchIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WorkBenchIBLL.h; sourceTree = "<group>"; };
 		1258C29878FDC95EF20CB81EA8D62FCD /* BeeHive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = IIBLL/Classes/BeeHive/BeeHive.bundle; sourceTree = "<group>"; };
 		16CBB7F7A3C991A4F221771E40139095 /* Pods-IIBLL_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIBLL_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -92,14 +94,14 @@
 		3EFBA28F961AC7FAA2D1C8D8BA798986 /* Pods-IIBLL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		42E4342DD032427E158AC1FFD11F9D48 /* IIsuprIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IIsuprIBLL.h; path = IIBLL/Classes/IBLL/IIsuprIBLL.h; sourceTree = "<group>"; };
 		42ED98701158E8C53F071707F6B02DF1 /* BHTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHTimeProfiler.m; path = IIBLL/Classes/BeeHive/BHTimeProfiler.m; sourceTree = "<group>"; };
-		43741342F30207F43B3F199EDF19B0F7 /* Pods_IIBLL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIBLL_Example.framework; path = "Pods-IIBLL_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43741342F30207F43B3F199EDF19B0F7 /* Pods_IIBLL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IIBLL_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4880C4939A570C48451F5FCBC74D7120 /* DiscoverIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DiscoverIBLL.h; sourceTree = "<group>"; };
 		4C3B5C9970B80BA2AFCC47E31DE81F75 /* IMPWebSolutionIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMPWebSolutionIBLL.h; sourceTree = "<group>"; };
 		5071561E627B064DC51AE2BFE458E99D /* BHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHConfig.h; path = IIBLL/Classes/BeeHive/BHConfig.h; sourceTree = "<group>"; };
 		532E4EEDAF873D7CF2B5A821E618F897 /* WebEXIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebEXIBLL.h; sourceTree = "<group>"; };
 		539E8F3A7072B77AB907EB53EDF3C0B4 /* Pods-IIBLL_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIBLL_Example-dummy.m"; sourceTree = "<group>"; };
 		55CE48188C32FE48C11A204DBDAA3E82 /* IIBLL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIBLL-prefix.pch"; sourceTree = "<group>"; };
-		57144B015C8A4E1D948B851B54A2852F /* Pods_IIBLL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIBLL_Tests.framework; path = "Pods-IIBLL_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57144B015C8A4E1D948B851B54A2852F /* Pods_IIBLL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IIBLL_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5904BD06F0EB09608AD4E2970BF74658 /* CloudMineIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudMineIBLL.h; sourceTree = "<group>"; };
 		683958730B1A73D4EECEDC8462BBB0D4 /* BHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHRouter.h; path = IIBLL/Classes/BeeHive/BHRouter.h; sourceTree = "<group>"; };
 		6A507809B03C83D594F28B86CA573C0D /* UMShareIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMShareIBLL.h; path = IIBLL/Classes/IBLL/UMShareIBLL.h; sourceTree = "<group>"; };
@@ -110,7 +112,7 @@
 		7C05E1DFBC49A8FCE4689262CE0C7684 /* IIBLL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IIBLL.xcconfig; sourceTree = "<group>"; };
 		7C15689D6D78B20C5F621CA2C8EC4CAD /* SearchSelectDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SearchSelectDelegate.h; path = IIBLL/Classes/IBLL/SearchSelectDelegate.h; sourceTree = "<group>"; };
 		7DFD0A6CDC69370C29E0BDD4D4CC5E4B /* BHWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHWatchDog.m; path = IIBLL/Classes/BeeHive/BHWatchDog.m; sourceTree = "<group>"; };
-		82154658D68FC7C215ECDE8B8BDA8F2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		82154658D68FC7C215ECDE8B8BDA8F2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		821C6C2EBCA653A2E07504544DD55884 /* BHContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHContext.m; path = IIBLL/Classes/BeeHive/BHContext.m; sourceTree = "<group>"; };
 		843923A05B8AB018E8D9869470471F00 /* BHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHConfig.m; path = IIBLL/Classes/BeeHive/BHConfig.m; sourceTree = "<group>"; };
 		850D34159A1CCB48DA7C37836496923F /* BeeHive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHive.m; path = IIBLL/Classes/BeeHive/BeeHive.m; sourceTree = "<group>"; };
@@ -118,8 +120,8 @@
 		89790395DDD8FBB2317CA3A4AA9DDE14 /* Pods-IIBLL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8C4052F24D53FCEF3A8876B5ABBA6093 /* BHDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHDefines.h; path = IIBLL/Classes/BeeHive/BHDefines.h; sourceTree = "<group>"; };
 		919004FCCDD4D7DBC59A762F9ABA22D7 /* Pods-IIBLL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Example.release.xcconfig"; sourceTree = "<group>"; };
-		971E6E8804B2E94005A06B15C2F06024 /* IIBLL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IIBLL.framework; path = IIBLL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		971E6E8804B2E94005A06B15C2F06024 /* IIBLL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IIBLL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0DAC95E03F5E55E25AD56708F10D0C2 /* Pods-IIBLL_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A629D3F5AD17A2290CD5E386458FEF73 /* LoginIBLLOC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginIBLLOC.h; sourceTree = "<group>"; };
 		ACFB92D69B9C0413D345017C34867F24 /* BHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHCommon.h; path = IIBLL/Classes/BeeHive/BHCommon.h; sourceTree = "<group>"; };
@@ -134,11 +136,13 @@
 		C55ECEAFE27045DF91B8690F9692F196 /* BHAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAnnotation.m; path = IIBLL/Classes/BeeHive/BHAnnotation.m; sourceTree = "<group>"; };
 		CA3BCB792C37716AAD62AB28F10E34DC /* JustModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustModule.swift; path = IIBLL/Classes/IBLL/JustModule.swift; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD16186F3C3FDCC09C5F2018F5B91513 /* IIBLL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IIBLL.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD16186F3C3FDCC09C5F2018F5B91513 /* IIBLL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IIBLL.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D01416289CB339BB581E9F0377FE1E05 /* QRScanResultDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QRScanResultDelegate.h; sourceTree = "<group>"; };
 		D068D574C39960DD8B28D60D9F570AD1 /* Pods-IIBLL_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIBLL_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D6B83944B754898371AC44C1448953CC /* BHModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleProtocol.h; path = IIBLL/Classes/BeeHive/BHModuleProtocol.h; sourceTree = "<group>"; };
 		DC017B1AA8307621720F2A1F7EC96B3A /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = IIBLL/Classes/BeeHive/BHServiceManager.m; sourceTree = "<group>"; };
+		DDB54DF22382824D0041D2CA /* MessageIBLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageIBLL.h; sourceTree = "<group>"; };
+		DDB54DF42382824D0041D2CA /* ShareIBLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareIBLL.h; sourceTree = "<group>"; };
 		DF1715423D2F15459A732B20C869F3C9 /* QRScanIBLL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QRScanIBLL.h; sourceTree = "<group>"; };
 		E06DEABB1B5F5DFFB23D7239D5E352D0 /* Pods-IIBLL_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIBLL_Tests-Info.plist"; sourceTree = "<group>"; };
 		E23FD80F08619494BEA450425F886B56 /* Pods-IIBLL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIBLL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -407,6 +411,22 @@
 			path = IIBLL/Classes/IBLL/WebEX;
 			sourceTree = "<group>";
 		};
+		DDB54DF12382824D0041D2CA /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				DDB54DF22382824D0041D2CA /* MessageIBLL.h */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		DDB54DF32382824D0041D2CA /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				DDB54DF42382824D0041D2CA /* ShareIBLL.h */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
 		E1E28981186B66FA606AAFD26F2261CD /* Plugs */ = {
 			isa = PBXGroup;
 			children = (
@@ -425,6 +445,8 @@
 				F0F8A76E35D21757208DBCAC6B6CB667 /* PhoneBookIBLL.h */,
 				7C15689D6D78B20C5F621CA2C8EC4CAD /* SearchSelectDelegate.h */,
 				6A507809B03C83D594F28B86CA573C0D /* UMShareIBLL.h */,
+				DDB54DF12382824D0041D2CA /* Message */,
+				DDB54DF32382824D0041D2CA /* Share */,
 				113112A0778826B4AAAC211985879457 /* AgoraAudio */,
 				10B1B5B43128D0E2FA31A1FED80D39B9 /* Discover */,
 				37253F56A033DD78766226C3F632C9FE /* Exchange */,
@@ -465,6 +487,7 @@
 				62BE6DC8F16887D648E750AEFC0E2A05 /* BHModuleProtocol.h in Headers */,
 				D20448474F188BD98FC447FDBCF55FE7 /* BHRouter.h in Headers */,
 				41E0DCD70B39D8809032EC9CD2149A1E /* BHServiceManager.h in Headers */,
+				DDB54DF52382824D0041D2CA /* MessageIBLL.h in Headers */,
 				3879755E47C3D54D37E0D249E82C7E7E /* BHServiceProtocol.h in Headers */,
 				2F017E870E4B4B32F38BA282BE4761B2 /* BHTimeProfiler.h in Headers */,
 				5D7F5C46CCB88CE5CE1C558C10ACBC78 /* BHWatchDog.h in Headers */,
@@ -475,6 +498,7 @@
 				99660BD5B5960D9E1E148E411B59FA6B /* IIsuprIBLL.h in Headers */,
 				C97DF727FF1C0259BB4C6672008655C3 /* IMPWebSolutionDelegate.h in Headers */,
 				589EE53689CCD8631688BA1B1DC5A65C /* IMPWebSolutionIBLL.h in Headers */,
+				DDB54DF62382824D0041D2CA /* ShareIBLL.h in Headers */,
 				C07505AA00ACA77A002656E3D8EECDCD /* LoginIBLLOC.h in Headers */,
 				E55465AF9E3A9C2DAACD30F1E0B0A6EA /* PhoneBookIBLL.h in Headers */,
 				190DF7C85060627F24673BD2C0582372 /* QRScanIBLL.h in Headers */,
@@ -575,6 +599,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -982,8 +1007,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
