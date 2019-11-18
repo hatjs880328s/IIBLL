@@ -1,9 +1,9 @@
 PODS:
-  - IIBLL (0.2.13):
-    - IIBLL/BeeHive (= 0.2.13)
-    - IIBLL/IBLL (= 0.2.13)
-  - IIBLL/BeeHive (0.2.13)
-  - IIBLL/IBLL (0.2.13):
+  - IIBLL (0.3.17):
+    - IIBLL/BeeHive (= 0.3.17)
+    - IIBLL/IBLL (= 0.3.17)
+  - IIBLL/BeeHive (0.3.17)
+  - IIBLL/IBLL (0.3.17):
     - IIBLL/BeeHive
 
 DEPENDENCIES:
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IIBLL: 49df980e5429d94cea7b027cc0eba7b5b593c040
+  IIBLL: 3f6c2a415e2693cbacdc2f7542838ebf15110aba
 
 PODFILE CHECKSUM: bdce4b827010cf7ba04782fc75a4893f52749cce
 
