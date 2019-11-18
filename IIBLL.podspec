@@ -33,7 +33,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  # s.source_files = 'IIBLL/Classes/**/*'
   # s.resource = 'IIBLL/Classes/BeeHive/BeeHive.bundle'
   s.swift_version = '5.0'
 
