@@ -25,6 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 分享预览界面，云盘文件分享
 - (UIViewController *)getUploadOverviewByCloudFiles:(NSMutableArray *)cloudFiles;
 
+/// 分享预览界面，本地沙盒文件分享，传入相对路径数组
+- (UIViewController *)getUploadOverviewByLocalPaths:(NSMutableArray *)localPaths;
+
 #pragma mark - 分享选择目标界面，直接选择频道人员
 /// 分享选择目标界面，文件路径数组
 - (UIViewController *)getSelectShareTargetByPathArray:(NSMutableArray *)uploadFilePathArray;
