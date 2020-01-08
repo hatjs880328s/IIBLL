@@ -17,32 +17,32 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - 分享预览界面
 /// 分享预览界面，传入多个文件路径
-- (UIViewController *)getUploadOverviewByPathArray:(NSMutableArray *)uploadFilePathArray;
+- (UIViewController * _Nullable)getUploadOverviewByPathArray:(NSMutableArray *)uploadFilePathArray;
 
 /// 分享预览界面，传入网址信息
-- (UIViewController *)getUploadOverviewByUrlInfo:(NSDictionary *)sharedUrlInfo;
+- (UIViewController * _Nullable)getUploadOverviewByUrlInfo:(NSDictionary *)sharedUrlInfo;
 
 /// 分享预览界面，云盘文件分享
-- (UIViewController *)getUploadOverviewByCloudFiles:(NSMutableArray *)cloudFiles;
+- (UIViewController * _Nullable)getUploadOverviewByCloudFiles:(NSMutableArray *)cloudFiles;
 
 /// 分享预览界面，本地沙盒文件分享，传入相对路径数组
-- (UIViewController *)getUploadOverviewByLocalPaths:(NSMutableArray *)localPaths;
+- (UIViewController * _Nullable)getUploadOverviewByLocalPaths:(NSMutableArray *)localPaths;
 
 #pragma mark - 分享选择目标界面，直接选择频道人员
 /// 分享选择目标界面，文件路径数组
-- (UIViewController *)getSelectShareTargetByPathArray:(NSMutableArray *)uploadFilePathArray;
+- (UIViewController * _Nullable)getSelectShareTargetByPathArray:(NSMutableArray *)uploadFilePathArray;
 
 /// 分享选择目标界面，网址信息
-- (UIViewController *)getSelectShareTargetByUrlInfo:(NSDictionary *)sharedUrlInfo;
+- (UIViewController * _Nullable)getSelectShareTargetByUrlInfo:(NSDictionary *)sharedUrlInfo;
 
 /// 分享选择目标界面，待分享的文字
-- (UIViewController *)getSelectShareTargetBySharedString:(NSString *)sharedString;
+- (UIViewController * _Nullable)getSelectShareTargetBySharedString:(NSString *)sharedString;
 
 /// 分享选择目标界面，消息对象
-- (UIViewController *)getSelectShareTargetByMessage:(NSArray *)sharedMessages;
+- (UIViewController * _Nullable)getSelectShareTargetByMessage:(NSArray *)sharedMessages;
 
 /// 分享选择目标界面，云盘文件
-- (UIViewController *)getSelectShareTargetByCloudFiles:(NSMutableArray *)sharedCloudFiles;
+- (UIViewController * _Nullable)getSelectShareTargetByCloudFiles:(NSMutableArray *)sharedCloudFiles;
 
 @end
 
